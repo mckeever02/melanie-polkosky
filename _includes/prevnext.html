@@ -1,0 +1,31 @@
+<div class="mt-16 lg:mt-24 flex flex-col md:flex-row w-full border border-slateGray border-l-0 border-r-0 border-b-0">
+        {% if page.previous.url %}
+        <a class="collection-item flex link-arrow3 flex-col items-center justify-center overflow-hidden block text-center py-24 w-full h-full border border-slateGray border-r-0 lg:border-r border-l-0 border-t-0 border-b lg:border-b-0 relative" href="{{page.previous.url}}">
+            <img class="absolute w-full left-0" src="/images/{{page.previous.thumbnail}}.svg" alt="{{page.previous.thumbnail_title}}">
+            <div class="relative z-10">
+                <h4 class="uppercase font-body text-xs md:text-base tracking-widest text-silver">Previous Project</h4>
+                <h3 class="text-3xl text-white relative inline-block">{{page.previous.thumbnail_title}}
+                    <svg viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.266 1.023l-.782.743c-.195.195-.195.507 0 .664l6.055 6.054H1.22a.475.475 0 00-.469.47v1.093c0 .273.195.469.469.469h13.32l-6.055 6.093c-.195.157-.195.47 0 .664l.782.743c.156.195.468.195.664 0l8.164-8.164a.45.45 0 000-.665L9.93 1.024c-.196-.195-.508-.195-.664 0z"
+                            fill="currentColor" /></svg>
+                </h3>
+            </div>
+        </a>
+        {% endif %}
+        {% if page.next.url %}
+        <a class="collection-item flex flex-col items-center justify-center overflow-hidden block text-center py-24 w-full h-full relative link-arrow3"
+            href="{{page.next.url}}">
+            <img class="absolute w-full left-0" src="/images/{{page.next.thumbnail}}.svg" alt="{{page.next.thumbnail_title}}">
+            <div class="relative z-10">
+                <h4 class="uppercase font-body text-base tracking-widest text-silver">Next Project</h4>
+                <h3 class="text-3xl text-white relative inline-block">{{page.next.thumbnail_title}}
+                    <svg viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M9.266 1.023l-.782.743c-.195.195-.195.507 0 .664l6.055 6.054H1.22a.475.475 0 00-.469.47v1.093c0 .273.195.469.469.469h13.32l-6.055 6.093c-.195.157-.195.47 0 .664l.782.743c.156.195.468.195.664 0l8.164-8.164a.45.45 0 000-.665L9.93 1.024c-.196-.195-.508-.195-.664 0z"
+                fill="currentColor" /></svg>
+                </h3>
+            </div>
+        </a>
+        {% endif %}
+</div>

@@ -1,12 +1,33 @@
 <!doctype html>
-<html class="no-js" lang="en-US">
+<html class="no-js font-body antialiased" lang="en-US">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Tailwind Jekyll Starter Kit</title>
+  <title>{{site.title}}</title>
+  <meta name="description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+
+  <!-- Opengraph -->
+  <meta property="og:url" content="{{site.url}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Content Title">
+  <meta property="og:image" content="{{site.url}}/images/social-image.jpg">
+  <meta property="og:image:alt" content="Preview of website of Melanie Polkosky">
+  <meta property="og:description" content="{{site.description}}">
+  <meta property="og:site_name" content="{{site.title}}">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:author" content="{{site.title}}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@melaniepolkosky">
+  <meta name="twitter:url" content="{{site.url}}">
+  <meta name="twitter:title" content="{{site.title}}">
+  <meta name="twitter:description" content="{{site.description}}">
+  <meta name="twitter:image" content="{{site.url}}/images/social-image.jpg">
+  <meta name="twitter:image:alt" content="Preview of website of Melanie Polkosky">
 </head>
 
-<body>
+<body class="sm:p-12 text-white">
