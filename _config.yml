@@ -1,5 +1,17 @@
-title: Tailwind Jekyll Starter Kit
-description: A starter kit for using Tailwind with Jekyll
+title: Melanie Polkosky
+description: I'm a social-cognitive psychologist who designs with words.
+
+twitter: melaniepolkosky
+
+collections:
+  portfolio:
+    output: true
+    collections_dir: portfolio
+
+permalinks: pretty
+
+email: melanie@melaniepolkosky.com
+book_link: https://www.amazon.co.uk/Uncovering-Truffles-Scarcity-Value-Women/dp/1515304280/ref=sr_1_1?keywords=uncovering+truffles&qid=1585251895&sr=8-1
 
 exclude:
   - Gemfile
