@@ -1,0 +1,23 @@
+- title: "Silicon Republic"
+  description: "Career Profile in Silicon Republic"
+  date: "Apr 2020"
+  link: "https://www.siliconrepublic.com/people/melanie-polkosky-sweepr"
+  image: "silicon-republic.png"
+
+- title: "The Quick Sweep"
+  description: "How to design 'Must use' Customer Self-Service"
+  date: "Dec 2019"
+  link: "https://sweepr.com/blog/20191220-must-use-customer-self-service"
+  image: "sweepr.png"
+
+- title: "UX Cake Podcast"
+  description: "The Cognitive Diversity Issue in UX"
+  date: "Aug 2019"
+  link: "https://shows.acast.com/uxcake/episodes/cognitive-diversity"
+  image: "ux-cake-podcast.png"
+
+- title: "Tech Savvy Women"
+  description: "Advice for Women in Tech"
+  date: "Jul 2015"
+  link: "https://techsavvywomen.net/dr-melanie-polkosky-offers-advice-for-women-in-tech-careers/"
+  image: "tech-savvy-women.png"
