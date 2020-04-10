@@ -26,5 +26,5 @@ exclude:
   - src
   - tailwind.config.js
 
-  plugins:
-    - jekyll-redirect-from
+plugins:
+  - jekyll-redirect-from
