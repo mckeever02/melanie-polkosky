@@ -20,54 +20,98 @@ function openTab(evt, tabName) {
     evt.currentTarget.className += " tab-active";
 }
 
-HaikuComponentEmbed_mckvr4_petals(
-    document.getElementById('petals'),
-    { loop: false,
-    contextMenu: 'disabled',
-    sizing: "contain"
-}
-);
+// var venn = bodymovin.loadAnimation({
+//     container: document.getElementById('venn'), // Required
+//     path: '/animations/venn.json', // Required
+//     renderer: 'svg', // Required
+//     loop: false, // Optional
+//     autoplay: true, // Optional
+//     name: "Venn Animation", // Name for future reference. Optional.
+// })
 
-HaikuComponentEmbed_mckvr4_venn2(
-    document.getElementById('venn'),
-    {
-        loop: false,
+// var venn = bodymovin.loadAnimation({
+//     container: document.getElementById('diamond'), // Required
+//     path: '/animations/diamond.json', // Required
+//     renderer: 'svg', // Required
+//     loop: false, // Optional
+//     autoplay: true, // Optional
+//     name: "Diamond Animation", // Name for future reference. Optional.
+// })
+
+// var h_and_w = bodymovin.loadAnimation({
+//     container: document.getElementById('h-and-w'), // Required
+//     path: '/animations/h-and-w.json', // Required
+//     renderer: 'html', // Required
+//     loop: false, // Optional
+//     autoplay: true, // Optional
+//     name: "H & W Animation", // Name for future reference. Optional.
+// })
+
+if (document.getElementById('petals')) {
+    HaikuComponentEmbed_mckvr4_petals(
+        document.getElementById('petals'),
+        {
+            loop: false,
+            contextMenu: 'disabled',
+            sizing: "contain"
+        }
+    );
+}
+
+
+if(document.getElementById('venn')) {
+    HaikuComponentEmbed_mckvr4_venn2(
+        document.getElementById('venn'),
+        {
+            loop: false,
+            contextMenu: 'disabled',
+            sizing: "contain"
+        }
+    );
+}
+
+
+
+if (document.getElementById('h-and-w')) {
+    HaikuComponentEmbed_mckvr4_HandW(
+        document.getElementById('h-and-w'),
+        { loop: false,
+        contextMenu: 'disabled',
+        sizing: "contain"
+    }
+    );
+}
+
+if (document.getElementById('bowls')) {
+    HaikuComponentEmbed_mckvr4_Bowls(
+        document.getElementById('bowls'),
+        { loop: false,
         contextMenu: 'disabled',
         sizing: "contain"
     }
 );
-
-HaikuComponentEmbed_mckvr4_HandW(
-    document.getElementById('h-and-w'),
-    { loop: false,
-    contextMenu: 'disabled',
-    sizing: "contain"
 }
-);
 
-HaikuComponentEmbed_mckvr4_Bowls(
-    document.getElementById('bowls'),
-    { loop: false,
-    contextMenu: 'disabled',
-    sizing: "contain"
+if (document.getElementById('sweepr')) {
+
+    HaikuComponentEmbed_mckvr4_sweepr(
+        document.getElementById('sweepr'),
+        { loop: false,
+        contextMenu: 'disabled',
+        sizing: "contain"
+    }
+    );
 }
-);
 
-HaikuComponentEmbed_mckvr4_sweepr(
-    document.getElementById('sweepr'),
-    { loop: false,
-    contextMenu: 'disabled',
-    sizing: "contain"
+if (document.getElementById('diamond')) {
+    HaikuComponentEmbed_mckvr4_Diamond(
+        document.getElementById('diamond'),
+        { loop: false,
+        contextMenu: 'disabled',
+        sizing: "contain"
+        }
+    );
 }
-);
-
-HaikuComponentEmbed_mckvr4_Diamond(
-    document.getElementById('diamond'),
-    { loop: false,
-    contextMenu: 'disabled',
-    sizing: "contain"
-     }
-);
 
 let coachingPacket = document.querySelector('#coaching-packet');
 let coachingSession = document.querySelector('#coaching-session');
@@ -75,25 +119,30 @@ let coachingSession = document.querySelector('#coaching-session');
 
 var polygonAnim;
 
-polygonAnim = HaikuComponentEmbed_mckvr4_Polygon(
-    document.getElementById('polygon'),
-    {
-        loop: true,
-        autoplay: false,
-        contextMenu: 'disabled'
-    }
-);
+if (document.getElementById('polygon')) {
+    polygonAnim = HaikuComponentEmbed_mckvr4_Polygon(
+        document.getElementById('polygon'),
+        {
+            loop: true,
+            autoplay: false,
+            contextMenu: 'disabled'
+        }
+    );
+}
 
 var triangleAnim;
 
-triangleAnim = HaikuComponentEmbed_mckvr4_Triangle(
-    document.getElementById('triangle'),
-    {
-        loop: true,
-        autoplay: false,
-        contextMenu: 'disabled'
-    }
-);
+if (document.getElementById('triangle')) {
+    triangleAnim = HaikuComponentEmbed_mckvr4_Triangle(
+        document.getElementById('triangle'),
+        {
+            loop: true,
+            autoplay: false,
+            contextMenu: 'disabled'
+        }
+    );
+}
+
 
 var nav = responsiveNav(".nav-collapse", { // Selector
     animate: true, // Boolean: Use CSS3 transitions, true or false
