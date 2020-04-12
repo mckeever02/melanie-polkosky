@@ -11,12 +11,13 @@ animation: sweepr
 
 ## The Challenge
 
-Belfast City Council had recently been given responsibility for disseminating federal funding for social programs across Belfast. In a three-week period of on-site strategy consultation, they requested a new method of funding social and community programs that didn’t rely on existing Protestent-Catholic community divisions.
+Alan Coleman, a successful entrepreneur in Dublin, Ireland sent me an email one day, saying he had heard about me and thought we needed to talk. He was starting a new company that was focused on using speech technology and artificial intelligence to create self-service support, one that users would love and return to again and again. He knew that UX was essential but needed someone who knew how to execute on the vision.
 
 ## The Solution
 
-As part of a team of six senior IBMers, I developed a well-being measure that could be used as a common outcome metric for all social and community programs as a way to assess impact with their intended citizens. This metric provided a way to assess program efficacy objectively, simply and flexibly. The metric was the centerpiece of IBM’s city-wide technology solution to collect data and ultimately fund programs based on participant success and positive community impact.
+After consulting for several months, I joined Sweepr as the SVP of Customer Experience in April 2019. In this role, I report to the CEO and am responsible for creating a delightful, motivating user experience for a complex, multimedia, intelligent technology. I lead a growing team of talented UX designers and also serve as the highest ranking female leader in the organization. In addition to being Sweepr’s first copywriter, voice designer, and user researcher, I’m using my skills in organizational psychology, consulting and coaching to develop our company philosophy; scope, close and execute customer projects; train internal teams; develop content strategy, marketing and sales collateral; and execute on our company mission and vision.
 
-> My well-being metric was the centerpiece of IBM’s healthcare technology solution for Belfast City Council.
 
-In the final presentation to over 250 community and political leaders, I told the story of Belfast’s ongoing divisions in a new context: that of Memphis’s troubled history of racial tension and said that a way past the emotion of history to a better society was through objective, comparative data. Today, a version of the metric I proposed has been adopted in Belfast, throughout Northern Ireland, the Republic of Ireland and proposed in the UK.
+> I’m continuing to develop and research three personas at Sweepr, which underlie the design of our compelling self-service approach.
+
+To see what I’m up to lately, please see [The Quick Sweep](https://sweepr.com/blog).
