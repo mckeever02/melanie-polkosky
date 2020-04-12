@@ -100,13 +100,13 @@
 
 @screen sm {
   .hero-title {
-    @apply text-3xl;
+    @apply text-5xl;
   }
 }
 
 @screen md {
   .hero-title {
-    @apply text-7xl;
+    @apply text-6xl;
   }
 }
 
