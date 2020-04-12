@@ -110,12 +110,11 @@
   }
 }
 
-@screen lg {
+@screen xxl {
   .hero-title {
     @apply text-7xl;
   }
 }
-
 
 .section-heading {
   @apply text-silver text-base uppercase font-medium tracking-widest font-body mb-12;
@@ -549,3 +548,6 @@ p a:hover {
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) { /* ... */ }
+
+/* Extra-extra Large (xxl) */
+@media (min-width: 1920px) { /* ... */ }

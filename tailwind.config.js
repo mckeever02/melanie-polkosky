@@ -45,6 +45,9 @@ module.exports = {
       leading: {
         '7': '1.8'
       },
+      screens: {
+        'xxl': '1680px',
+      },
     }
   },
 }
