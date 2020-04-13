@@ -193,14 +193,23 @@ p a:hover {
   }
 }
 
-.longform-text p {
+.longform-text p, .longform-text ul, .longform-text ol {
   @apply mb-8;
 }
 
 @screen md {
-  .longform-text p {
+  .longform-text p, .longform-text ul, .longform-text ol {
     @apply leading-9 mb-12;
   }
+}
+
+.markdown-text ul li::before {
+  content: "\2022";
+  @apply text-aquamarine inline-block font-medium w-4;
+}
+
+.markdown-text ol {
+  @apply list-decimal list-inside;
 }
 
 .longform-title, .markdown-text h2 {

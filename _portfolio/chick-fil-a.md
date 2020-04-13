@@ -1,11 +1,11 @@
 ---
 layout: portfolio-single
-title: Ethnographic research for mobile ordering.
+title: Remote research program for employee training.
 role: User Research
 thumbnail_title: Chick-Fil-A
 company: Motivate Design
 client: Chick-Fil-A
-time: 2017&ndash;2018
+time: 2017&ndash;2019
 thumbnail: chick-fil-a-thumbnail
 animation: bowls
 testimonials:
@@ -16,14 +16,27 @@ testimonials:
 
 ## The Challenge
 
-Chick-Fil-A deployed a digital learning platform for employees of its restaurant franchisees nationwide. After receiving some early feedback that it wasn’t working as planned, the Training team at CFA’s Atlanta Support Center approached Motivate Design with a request for consulting.
+Chick-Fil-A wanted to explore the pick up process for ordering food using its mobile app and understand where opportunities existed to create a more satisfying, streamlined Guest experience.
 
 ## The Solution
 
-I designed, scoped, helped to close and executed on a multi-stage research program that focused on usability of the digital learning platform, as well as the needs and requirements of employees in the restaurants (Operators, training managers, shift leads and team members) to articulate how the Support Center’s Training team might best assist their franchisees in developing skilled employees.
+I scoped, designed and helped to close the sale of this complex ethnographic research project, then acted as the lead researcher in a team of two during its execution.
 
-The research program included several rounds of interviews to understand restaurant training strategy, as well as task-based usability testing with learners and administrators on the platform. In all, over 60 employees and 30 restaurants were represented in 6 rounds of research.
+The project included 27 CFA customers who placed an order on their personal mobile phone, then traveled to their local CFA franchise to pick up the order. We interviewed about their experience. Data collection included observed usability problems by ordering phase, open-ended questions about the experience and quantitative ratings of participant perceptions of service quality, intent to use the app again, and satisfaction.
 
-> Use callouts to draw the eye to key factors and snippets of interest for people such as me that will absolutely not read this.
+> We traveled (remotely and in-person) to 23 restaurants located in Houston, Los Angeles, Baltimore and Charleston.
 
-In addition, the year-long program included interactive workshops with several cross-functional teams, as well as collaboration with CFA’s digital platform vendor, other training vendors and a coaching-consultation effort to assist with implementation of recommendations.
+The study also included interviews with 6 franchise owners about the strategic role of mobile ordering in their restaurant, along with challenges and opportunities.
+
+We identified five phases of a mobile order and quantified Guests’ most impactful usability problems and satisfaction with each phase. Design improvements to the mobile app included providing more feedback to the user during the order confirmation and travel phase, as well as clear instructions upon arrival at the restaurant.
+
+CFA subsequently requested heuristic reviews of new experience flows based on our recommendations, along with a re-assessment of the mobile app experience nearly one year later.
+
+## Client Deliverables
+
+- Employee Learner and Administrator Descriptive Personas
+- Redefinition of “Training” and Key Restaurant Needs
+- Quantification of Training Platform Usability Problems
+- Recommendations for Training Process and Platform Improvements
+- Design Thinking & Alignment Workshops
+- Restaurant Training Strategy
