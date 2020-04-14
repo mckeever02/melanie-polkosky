@@ -304,7 +304,7 @@ p a:hover {
   @apply transition duration-300 ease-in-out
 }
 
-.collection-item img {
+.collection-item img, .article-item img, .article-item .overlay {
   @apply transition duration-700 ease-in-out
 }
 
@@ -327,6 +327,24 @@ p a:hover {
 .portfolio-item:hover img {
   transform: scale(1.1);
 }
+
+.article-item img {
+  filter: grayscale(1);
+}
+
+.article-item .overlay {
+  @apply bg-darkGreen opacity-50;
+}
+
+.article-item:hover img {
+  filter: grayscale(0);
+}
+
+.article-item:hover .overlay {
+  @apply opacity-0;
+}
+
+
 
 @screen lg {
   .collection-item {

@@ -14,7 +14,7 @@
             {% for navigation in site.data.navigation %}
             <li><a class="{% if navigation.url == page.url %} active{% endif %} nav-link" href="{{ navigation.url }}">{{ navigation.text }}</a></li>
             {% endfor %}
-            <li><a class="nav-link" href="mailto:{{site.email}}">Email</a></li>
+            <!-- <li><a class="nav-link" href="mailto:{{site.email}}">Email</a></li> -->
         </ul>
     </nav>
 </div>

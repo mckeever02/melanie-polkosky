@@ -7,36 +7,39 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.6/lottie.min.js"></script> -->
 <script src="/scripts/HaikuCore.4.5.1.min.js"></script>
 
-{% if page.permalink == "/about/" %}
+{% if page.animation == "diamond" %}
 <!-- Diamond Anim -->
 <script src="/scripts/diamond-anim.js"></script>
 {% endif %}
 
-{% if page.permalink == "/portfolio/" %}
+{% if page.animation == "venn" %}
 <!-- Venn anim -->
 <script src="/scripts/venn-anim.js"></script>
 {% endif %}
 
-{% if page.permalink == "/coaching/" %}
+{% if page.animation == "petals" %}
 <!-- Petals anim -->
 <script src="/scripts/petals-anim.js"></script>
+{% endif %}
+
+{% if page.permalink == "/coaching/" %}
 <!-- Coaching packet anim -->
 <script src="/scripts/coaching-packet-anim.js"></script>
 <!-- Coaching session anim -->
 <script src="/scripts/coaching-session-anim.js"></script>
 {% endif %}
 
-{% if page.url contains "ibm" %}
+{% if page.animation == "ibm" %}
 <!-- H & W anim -->
 <script src="/scripts/h-and-w-anim.js"></script>
 {% endif %}
 
-{% if page.url contains "chick-fil-a" %}
+{% if page.animation == "bowls" %}
 <!-- Bowls anim -->
 <script src="/scripts/bowls-anim.js"></script>
 {% endif %}
 
-{% if page.url contains "sweepr" %}
+{% if page.animation == "sweepr" %}
 <!-- Sweepr anim -->
 <script src="/scripts/sweepr-anim.js"></script>
 {% endif %}

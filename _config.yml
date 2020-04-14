@@ -8,6 +8,8 @@ collections:
   portfolio:
     output: true
     collections_dir: portfolio
+  writing:
+    output: false
 
 permalink: pretty
 

@@ -1,0 +1,41 @@
+---
+layout: default
+title: Writing
+description: Words to share.
+animation: diamond
+permalink: /writing/
+---
+
+{% include hero.html %}
+
+<div class="mt-6 sm:mt-16 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-12">
+    {% assign writing = site.data.writing %}
+    {%for item in writing %}
+    <a href="{{item.url}}" target="_blank" rel="noopener noreferrer" class="portfolio-item article-item relative text-white">
+        <div class="absolute top-0 left-0 w-full h-full bg-darkGreen border z-1 portfolio-item-accent"></div>
+        <div class="portfolio-item-box border bg-darkGreen relative z-2 overflow-hidden h-full">
+            <div class="relative">
+                <div class="overlay absolute w-full h-full top-0 left-0 z-20"></div>
+                <img class="w-full" src="/images/{{item.image}}" alt="{{item.title}}">
+            </div>
+            <div class="border h-full border-b-0 border-l-0 border-r-0 px-6 py-4 relative z-10 bg-darkGreen">
+                <div class="flex mb-1 flex-row uppercase font-medium tracking-wide text-silver">
+                    <span class="block">{{item.date}}</span>
+                    <span class="px-2">&bull;</span>
+                    <span class="block">{{item.publication}}</span>
+                </div>
+                <h3 class="text-3xl leading-tight mb-2">{{item.title}}</h3>
+                <p class="font-normal text-xl text-silver mb-4">{{item.excerpt}}</p>
+            </div>
+
+        </div>
+    </a>
+    {%endfor%}
+</div>
+
+{% include hr.html %}
+
+<section class="py-12 lg:py-24 text-center">
+    <h2 class="text-3xl lg:text-5xl">I'm available for writing comissions</h2>
+    <a class="text-lg lg:text-2xl" href="mailto:{{site.email}}">{{site.email}}</a>
+</section>
