@@ -203,6 +203,18 @@ p a:hover {
   }
 }
 
+.markdown-text :not(.longform-img) {
+  @apply max-w-2xl mx-auto;
+}
+
+.longform-img {
+  @apply max-w-4xl mx-auto;
+}
+
+.longform-img img {
+  max-width: 100%!important;
+}
+
 .markdown-text ul li::before {
   content: "\2022";
   @apply text-aquamarine inline-block font-medium w-4;
@@ -542,6 +554,45 @@ p a:hover {
   @apply bg-white text-white
 }
 
+@screen md {
+  .slider-overlay {
+    width: 15%;
+    @apply bg-darkGreen;
+  }
+  .slider-overlay--left {
+    background: linear-gradient(-90deg, rgba(25,65,72,0) 0%, rgba(25,65,72,0.8953956582633054) 60%, rgba(25,65,72,1) 100%);
+  }
+  .slider-overlay--right {
+    background: linear-gradient(90deg, rgba(25,65,72,0) 0%, rgba(25,65,72,0.8953956582633054) 60%, rgba(25,65,72,1) 100%);
+  }
+}
+
+
+
+.slider-arrow--next, .slider-arrow--prev {
+  top: 50%;
+  transform: translateY(-50%);
+  @apply opacity-50 transition duration-300 ease-in-out;
+  outline: none;
+}
+
+.slider-arrow--next:hover, .slider-arrow--prev:hover {
+  @apply opacity-100;
+  outline: none;
+}
+
+.slider-arrow--prev {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.testimonial-slider .tns-item {
+  transform: scale(.8);
+}
+
+.testimonial-slider .tns-slide-active {
+  transform: scale(1);
+}
+
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
@@ -559,4 +610,7 @@ p a:hover {
 @media (min-width: 1280px) { /* ... */ }
 
 /* Extra-extra Large (xxl) */
-@media (min-width: 1920px) { /* ... */ }
+@media (min-width: 1440px) { /* ... */ }
+
+/* Extra-extra Large (xxxl) */
+@media (min-width: 1680px) { /* ... */ }

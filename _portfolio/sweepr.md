@@ -4,20 +4,28 @@ title: Evidence-based personas for product differentiation.
 thumbnail_title: Sweepr
 role: SVP Customer Experience
 company: Sweepr
-time: "2018&ndash;Present"
+time: "2019&ndash;Present"
 thumbnail: sweepr-thumbnail
 animation: sweepr
 ---
 
 ## The Challenge
 
-Alan Coleman, a successful entrepreneur in Dublin, Ireland sent me an email one day, saying he had heard about me and thought we needed to talk. He was starting a new company that was focused on using speech technology and artificial intelligence to create self-service support, one that users would love and return to again and again. He knew that UX was essential but needed someone who knew how to execute on the vision.
+Sweepr, a technology startup based in Dublin, Ireland is building a software platform that uses speech technology and artificial intelligence to provide contextually-adaptive self-service for consumers in their home. My role as Senior VP of Customer Experience is to differentiate our product through unique features that create an excellent customer experience.
 
 ## The Solution
 
-After consulting for several months, I joined Sweepr as the SVP of Customer Experience in April 2019. In this role, I report to the CEO and am responsible for creating a delightful, motivating user experience for a complex, multimedia, intelligent technology. I lead a growing team of talented UX designers and also serve as the highest ranking female leader in the organization. In addition to being Sweepr’s first copywriter, voice designer, and user researcher, I’m using my skills in organizational psychology, consulting and coaching to develop our company philosophy; scope, close and execute customer projects; train internal teams; develop content strategy, marketing and sales collateral; and execute on our company mission and vision.
+One of my first contributions to Sweepr came in the form of research that I’d already been working on for nearly 15 years: a deep understanding of what motivates people to select self-service over other available forms of support and then return to it again and again. In 2001, when I entered the UX field, I became interested in the aspects of personality and user interface design that would create compelling experiences. My dissertation research showed that risk-taking, the personality variable that plays a role in “risky” behaviors like skydiving, motorcycle riding, and even alcohol consumption, also governed whether people were satisfied with advanced technologies like speech recognition.
+
+> My personas, known as Avoidant, Optimistic and Confident, are central to Sweepr’s strategy and value proposition.
+
+![Sweepr Personas](/images/sweepr-personas.svg "The 3 personas")
+{: .longform-img}
+
+From this initial finding, I continued to develop my understanding of the key variables that cause people to use self-service. As my UX career progressed from speech technology to include websites, mobile apps and even physical products, I continued to explore the key personality variables. By the time I joined Sweepr in 2019, I had described three clear consumer personas that applied to our self-service products.
+
+To date, I have developed an approach to UX design and writing for self-service content development based on the three end user personas. In addition, I’ve operationalized and quantified methods for our platform to identify a user’s persona during onboarding and incrementally change their persona as they use the product. These innovations have been codified into the platform and are a central plank of Sweepr’s value proposition. Finally, I’ve designed an ongoing research program to understand the specific behavioral and attitudinal issues that differentiate the personas and feed continued product innovation.
 
 
-> I’m continuing to develop and research three personas at Sweepr, which underlie the design of our compelling self-service approach.
 
 To see what I’m up to lately, please see [The Quick Sweep](https://sweepr.com/blog).

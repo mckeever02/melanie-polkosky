@@ -15,6 +15,9 @@
   </title>
   <meta name="description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.slides %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/tinyslider.css">
+  {% endif %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -47,4 +50,4 @@
 
 </head>
 
-<body class="md:p-6 lg:p-8 xl:p-12 xxl:p-16 text-white">
+<body class="md:p-6 lg:p-8 xl:p-12 xxxl:p-16 text-white">

@@ -2,8 +2,8 @@
 ---
 
 {% include header.html %}
-<main class="bg-darkGreen">
-  <div class="mx-auto max-w-6xl px-4 sm:px-8 md:px-12 xl:px-0">
+<main class="bg-darkGreen mx-auto shadow-xl">
+  <div class="mx-auto max-w-5xl xxl:max-w-6xl px-4 sm:px-8 md:px-12 xl:px-0">
     {% include navigation.html %}
     {% include hero.html %}
   </div>
@@ -42,10 +42,49 @@
       </div>
     </aside>
   <div class="mx-auto max-w-6xl px-8 lg:px-0">
-    <div class="mt-6 md:mt-16 max-w-2xl mx-auto longform-text markdown-text sm:text-lg lg:text-xl">
+    <div class="mt-6 md:mt-16 mx-auto longform-text markdown-text sm:text-lg lg:text-xl">
       {{ content }}
+    </div
+
+  </div>
+
+  {% if page.testimonials %}
+    <!-- <div class="relative mx-auto">
+      <div id="testimonial-slider" class="testimonial-slider mx-auto">
+        {% for item in page.testimonials %}
+        <div>
+          <blockquote class="rounded-lg bg-white text-black w-full text-center p-6 font-display text-2xl max-w-2xl">
+            {{item.content}}
+            <cite class="leading-tight mt-3 not-italic text-base block font-body font-medium text-slateGray">{{item.name}}</cite>
+            <span class="not-italic leading-tight text-base block font-body font-medium text-slateGray">{{item.title}}</span>
+          </blockquote>
+        </div>
+        {% endfor %}
+      </div>
+    </div> -->
+  {% endif %}
+
+
+  {% if page.slides %}
+  <div class="relative">
+    <div class="slider-arrows">
+      <button class="slide-arrow slider-arrow--prev text-white absolute left-0 p-6 z-20"><svg class="w-10 h-10 lg:w-12 lg:h-12" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.266 1.023l-.782.743c-.195.195-.195.507 0 .664l6.055 6.054H1.22a.475.475 0 00-.469.47v1.093c0 .273.195.469.469.469h13.32l-6.055 6.093c-.195.157-.195.47 0 .664l.782.743c.156.195.468.195.664 0l8.164-8.164a.45.45 0 000-.665L9.93 1.024c-.196-.195-.508-.195-.664 0z" fill="currentColor" /></svg></button>
+      <button class="slide-arrow slider-arrow--next text-white absolute right-0 p-6 z-20"><svg class="w-10 h-10 lg:w-12 lg:h-12" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.266 1.023l-.782.743c-.195.195-.195.507 0 .664l6.055 6.054H1.22a.475.475 0 00-.469.47v1.093c0 .273.195.469.469.469h13.32l-6.055 6.093c-.195.157-.195.47 0 .664l.782.743c.156.195.468.195.664 0l8.164-8.164a.45.45 0 000-.665L9.93 1.024c-.196-.195-.508-.195-.664 0z" fill="currentColor" /></svg></button>
+    </div>
+    <div class="slider-overlay slider-overlay--left absolute top-0 left-0 h-full z-10"></div>
+    <div class="slider-overlay slider-overlay--right absolute top-0 right-0 h-full z-10"></div>
+    <div id="case-slider" class="slider relative">
+      {% for item in page.slides %}
+      <div>
+        <img src="/images/{{item.image}}" alt="{{item.title}}">
+        {% if item.title %}
+        <h4 class="font-medium font-body pt-2">↪ {{item.title}}</h4>
+        {% endif %}
+      </div>
+      {% endfor %}
     </div>
   </div>
+  {% endif %}
 
   {% include prevnext.html %}
 </main>

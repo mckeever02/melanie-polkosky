@@ -46,7 +46,8 @@ module.exports = {
         '7': '1.8'
       },
       screens: {
-        'xxl': '1680px',
+        'xxl': '1440px',
+        'xxxl': '1920px'
       },
     }
   },

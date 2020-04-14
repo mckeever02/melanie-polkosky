@@ -143,6 +143,46 @@ if (document.getElementById('triangle')) {
     );
 }
 
+if (document.getElementById('case-slider')) {
+    var slider = tns({
+        container: '.slider',
+        items: 1,
+        arrowKeys: true,
+        lazyload: true,
+        mouseDrag: true,
+        center: true,
+        gutter: 16,
+        edgePadding: 16,
+        controlsContainer: ".slider-arrows",
+        nextButton: '.slider-arrow--prev',
+        nextButton: 'slider-arrow--next',
+        responsive: {
+            640: {
+                gutter: 24,
+            },
+            768: {
+                gutter: 24,
+                items: 2,
+                edgePadding: 0
+            }
+        }
+    });
+}
+
+if (document.getElementById('testimonial-slider')) {
+    var slider = tns({
+        container: '.testimonial-slider',
+        items: 2,
+        center: true,
+        axis: "horizontal",
+        gutter: 24,
+        controls: true,
+        loop: true,
+        mouseDrag: true,
+        slideBy: 1
+    });
+}
+
 
 var nav = responsiveNav(".nav-collapse", { // Selector
     animate: true, // Boolean: Use CSS3 transitions, true or false
