@@ -6,18 +6,23 @@ animation: diamond
 permalink: /about/
 ---
 
-{% include hero.html %}
+<div class="relative pb-16 -mt-16">
+    <div class="mx-auto relative mt-8 md:mt-16 mb-8">
+        <div class="absolute w-full h-full border-slateGray border img-accent z-0"></div>
+        <img class="relative z-10 m-0" src="/images/melanie-polkosky.jpg" alt="Photo of Melanie Polkosky">
+    </div>
+    <div class="block max-w-screen-lg mx-auto -mt-40 relative z-10">
+        <h1 class="hero-subtitle">{{page.title}}</h1>
+        <h2 class="hero-title">{{page.description}}</h2>
+    </div>
 
-<div class="mt-6 md:mt-16 max-w-2xl mx-auto text-lg lg:text-xl longform-text">
+</div>
+
+<div class="mt-6 max-w-2xl mx-auto text-lg lg:text-xl longform-text">
     <p>I’m a social-cognitive psychologist, strategist, consultant, researcher, writer and certified coach. I earned a Ph.D. in
     Cognitive and Neural Sciences from the University of South Florida, with specialty in interpersonal communication,
     social cognition and applied behavioral research. I also hold a Bachelor of Science in Education (English major) and
     Master of Science in Communication Sciences and Disorders.</p>
-</div>
-
-<div class="max-w-5xl mx-auto relative mt-8 md:mt-16 mb-8">
-    <div class="absolute w-full h-full border-slateGray border img-accent z-0"></div>
-    <img class="relative z-10" src="/images/melanie-polkosky.jpg" alt="Photo of Melanie Polkosky">
 </div>
 
 <div class="mt-6 md:mt-16 max-w-2xl mx-auto text-lg lg:text-xl longform-text">

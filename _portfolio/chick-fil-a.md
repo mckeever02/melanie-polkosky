@@ -10,8 +10,11 @@ thumbnail: chick-fil-a-thumbnail
 animation: bowls
 testimonials:
     - name: Kramer Johnson
-      title: Restaurant Training
-      content: Thanks for the incredible work and the positive influence that you have on everyone you come in contact with. It’s inspiring.
+      title: Restaurant Training, Chick-Fil-A
+      content: "Thanks for the incredible work and the positive influence that you have on everyone you come in contact with. It’s inspiring."
+    - name: Chelsey McGee
+      title: Project Lead, Digital Learning, Restaurant Training, Chick-Fil-A
+      content: "It has been an absolute pleasure working with you… your partnership and the work done have been incredibly valuable for us, and will help set us up for an improved experience in the future."
 ---
 
 ## The Challenge

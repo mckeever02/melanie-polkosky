@@ -15,8 +15,9 @@
   </title>
   <meta name="description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.slides %}
-  <link rel="stylesheet" href="{{ site.baseurl }}/tinyslider.css">
+  {% if page.slides or page.testimonials %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/glide.core.min.css">
+  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/tinyslider.css"> -->
   {% endif %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 

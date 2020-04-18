@@ -143,45 +143,45 @@ if (document.getElementById('triangle')) {
     );
 }
 
-if (document.getElementById('case-slider')) {
-    var slider = tns({
-        container: '.slider',
-        items: 1,
-        arrowKeys: true,
-        lazyload: true,
-        mouseDrag: true,
-        center: true,
-        gutter: 16,
-        edgePadding: 16,
-        controlsContainer: ".slider-arrows",
-        nextButton: '.slider-arrow--prev',
-        nextButton: 'slider-arrow--next',
-        responsive: {
-            640: {
-                gutter: 24,
-            },
-            768: {
-                gutter: 24,
-                items: 2,
-                edgePadding: 0
-            }
-        }
-    });
-}
+// if (document.getElementById('case-slider')) {
+//     var slider = tns({
+//         container: '.slider',
+//         items: 1,
+//         arrowKeys: true,
+//         lazyload: true,
+//         mouseDrag: true,
+//         center: true,
+//         gutter: 16,
+//         edgePadding: 16,
+//         controlsContainer: ".slider-arrows",
+//         nextButton: '.slider-arrow--prev',
+//         nextButton: 'slider-arrow--next',
+//         responsive: {
+//             640: {
+//                 gutter: 24,
+//             },
+//             768: {
+//                 gutter: 24,
+//                 items: 2,
+//                 edgePadding: 0
+//             }
+//         }
+//     });
+// }
 
-if (document.getElementById('testimonial-slider')) {
-    var slider = tns({
-        container: '.testimonial-slider',
-        items: 2,
-        center: true,
-        axis: "horizontal",
-        gutter: 24,
-        controls: true,
-        loop: true,
-        mouseDrag: true,
-        slideBy: 1
-    });
-}
+// if (document.getElementById('testimonial-slider')) {
+//     var slider = tns({
+//         container: '.testimonial-slider',
+//         items: 2,
+//         center: true,
+//         axis: "horizontal",
+//         gutter: 24,
+//         controls: true,
+//         loop: true,
+//         mouseDrag: true,
+//         slideBy: 1
+//     });
+// }
 
 
 var nav = responsiveNav(".nav-collapse", { // Selector
@@ -223,4 +223,36 @@ if (coachingSession) {
     coachingSession.addEventListener('mouseleave', function () {
         triangleAnim.stop()
     })
+}
+if (document.querySelector('.audio-element')) {
+    GreenAudioPlayer.init({
+        selector: '.audio-element',
+        stopOthersOnPlay: true
+    });
+}
+
+if (document.querySelector('.testimonial-glide')) {
+    var testimonialGlide = new Glide('.testimonial-glide', {
+        type: 'slider',
+        startAt: 0,
+        perView: 2,
+        gap: 0,
+        keyboard: true,
+        focusAt: "center"
+
+    });
+    testimonialGlide.mount()
+}
+
+if (document.querySelector('.image-glide')) {
+    var imageGlide = new Glide('.image-glide', {
+        type: 'slider',
+        startAt: 0,
+        perView: 2,
+        gap: 40,
+        keyboard: true,
+        focusAt: "center"
+
+    });
+    imageGlide.mount()
 }

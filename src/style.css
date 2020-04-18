@@ -243,7 +243,7 @@ p a:hover {
   @apply border border-silver;
 } */
 
-.cta-accent, .callout-accent, .portfolio-item-accent {
+.cta-accent, .callout-accent, .portfolio-item-accent, .audio-accent, .slide-accent {
   transform: translate(5px, 5px);
 }
 
@@ -297,6 +297,12 @@ p a:hover {
 @screen md {
   .markdown-text blockquote {
     @apply text-3xl
+  }
+}
+
+@screen md {
+  .portfolio-metadata {
+    min-width: 40rem;
   }
 }
 
@@ -397,15 +403,15 @@ p a:hover {
 }
 
 .delay-1 {
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 .delay-2 {
-  animation-delay: 1s;
+  animation-delay: .6s;
 }
 
 .delay-3 {
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 
 @keyframes fadeMoveIn {
@@ -572,6 +578,249 @@ p a:hover {
   @apply bg-white text-white
 }
 
+.green-audio-player {
+  @apply bg-darkGreen border border-slateGray px-4 text-white w-full relative z-20;
+  /* width: 400px;
+  min-width: 300px; */
+  height: 80px;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  background-color: ;
+  box-sizing: border-box;
+  outline: none; }
+  .play-pause-btn svg path, .volume__button svg path {
+    fill: white;
+  }
+  .green-audio-player.player-accessible .play-pause-btn:hover,
+  .green-audio-player.player-accessible .controls:hover,
+  .green-audio-player.player-accessible .volume__button:hover,
+  .green-audio-player.player-accessible .volume__controls:hover,
+  .green-audio-player.player-accessible .download:hover {
+    outline: dotted 1px #ffffff; }
+  .green-audio-player svg,
+  .green-audio-player img {
+    display: block; }
+  .green-audio-player .holder {
+    position: relative; }
+    .green-audio-player .holder .loading .loading__spinner {
+      position: absolute;
+      left: -3px;
+      bottom: 2px;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #ffffff;
+      border-right-color: rgba(0, 0, 0, 0);
+      border-radius: 50%;
+      animation: spin 0.4s linear infinite; }
+    .green-audio-player .holder .play-pause-btn {
+      visibility: hidden;
+      cursor: pointer;
+      outline: none; }
+      .green-audio-player .holder .play-pause-btn:focus {
+        outline: none; }
+  .green-audio-player .slider {
+    flex-grow: 1;
+    @apply bg-slateGray;
+    cursor: pointer;
+    position: relative; }
+    .green-audio-player .slider .gap-progress {
+      @apply bg-aquamarine;
+      border-radius: inherit;
+      position: absolute;
+      pointer-events: none; }
+      .green-audio-player .slider .gap-progress .pin {
+        @apply bg-aquamarine;
+        height: 16px;
+        width: 16px;
+        border-radius: 8px;
+        position: absolute;
+        pointer-events: all;
+        }
+        .green-audio-player .slider .gap-progress .pin::after {
+          content: "";
+          display: block;
+          background: rgba(0, 0, 0, 0);
+          width: 200%;
+          height: 200%;
+          margin-left: -50%;
+          margin-top: -50%;
+          border-radius: 50%; }
+  .green-audio-player .controls {
+    @apply font-sans text-white text-base;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    outline: none; }
+    .green-audio-player .controls .controls__slider {
+      margin-left: 16px;
+      margin-right: 16px;
+      border-radius: 2px;
+      height: 4px; }
+      .green-audio-player .controls .controls__slider .controls__progress {
+        width: 0;
+        height: 100%; }
+        .green-audio-player .controls .controls__slider .controls__progress .progress__pin {
+          right: -8px;
+          top: -6px; }
+    .green-audio-player .controls span {
+      cursor: default; }
+    .green-audio-player .controls:focus {
+      outline: none; }
+  .green-audio-player .volume {
+    position: relative; }
+    .green-audio-player .volume .volume__button {
+      cursor: pointer;
+      outline: none; }
+      .green-audio-player .volume .volume__button:focus {
+        outline: none; }
+      .green-audio-player .volume .volume__button.open path {
+        fill: #04e3bb; }
+    .green-audio-player .volume .volume__controls {
+      width: 30px;
+      height: 135px;
+      background-color: rgba(0, 0, 0, 0.62);
+      border-radius: 7px;
+      position: absolute;
+      left: -3px;
+      bottom: 52px;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      z-index: 2;
+      outline: none; }
+      .green-audio-player .volume .volume__controls .volume__slider {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        width: 6px;
+        border-radius: 3px; }
+        .green-audio-player .volume .volume__controls .volume__slider .volume__progress {
+          bottom: 0;
+          height: 100%;
+          width: 6px; }
+          .green-audio-player .volume .volume__controls .volume__slider .volume__progress .volume__pin {
+            left: -5px;
+            top: -8px; }
+      .green-audio-player .volume .volume__controls:focus {
+        outline: none; }
+      .green-audio-player .volume .volume__controls.hidden {
+        display: none; }
+      .green-audio-player .volume .volume__controls.top {
+        bottom: 52px;
+        left: -3px; }
+      .green-audio-player .volume .volume__controls.middle {
+        bottom: -54px;
+        left: 54px; }
+      .green-audio-player .volume .volume__controls.bottom {
+        bottom: -164px;
+        left: -3px; }
+  .green-audio-player .download {
+    display: none;
+    margin-left: 16px;
+    cursor: pointer;
+    outline: none; }
+    .green-audio-player .download:focus {
+      outline: none; }
+  .green-audio-player:focus {
+    outline: none; }
+
+.message__offscreen {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal; }
+
+.glide__slides {
+  align-items: center;
+}
+
+.glide__arrow--disabled {
+    opacity: 0.33; }
+
+
+.glide__arrow--left {
+  transform: rotate(180deg) translateY(50%);
+}
+
+.glide__bullets {
+  position: absolute;
+  z-index: 2;
+  bottom: 2em;
+  left: 50%;
+  display: inline-flex;
+  list-style: none;
+  transform: translateX(-50%); }
+
+.glide__bullet {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  line-height: 0;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+  margin: 0 0.25em; }
+  .glide__bullet:focus {
+    outline: none; }
+  .glide__bullet:hover, .glide__bullet:focus {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5); }
+  .glide__bullet--active {
+    background-color: white; }
+
+.glide--swipeable {
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab; }
+
+.glide--dragging {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing; }
+
+
+.testimonial-accent {
+  transform: translateY(5px);
+  left: 4px;
+  width: calc(100% - 8px);
+}
+
+.testimonial-glide .glide__slide, .image-glide .glide__slide {
+  transform: scale(.8);
+  transition: all 300ms ease-in-out;
+  @apply py-10;
+}
+
+.image-glide .glide__slide {
+  @apply opacity-50;
+}
+
+.testimonial-glide .glide__slide .border, .image-glide .glide__slide .border {
+  @apply border-slateGray;
+}
+
+.testimonial-glide .glide__slide--active, .image-glide .glide__slide--active {
+  transform: scale(1);
+  @apply opacity-100;
+}
+
+.testimonial-glide .glide__slide--active .border, .image-glide .glide__slide--active .border {
+  @apply border-white;
+}
+
 @screen md {
   .slider-overlay {
     width: 15%;
@@ -585,31 +834,6 @@ p a:hover {
   }
 }
 
-
-
-.slider-arrow--next, .slider-arrow--prev {
-  top: 50%;
-  transform: translateY(-50%);
-  @apply opacity-50 transition duration-300 ease-in-out;
-  outline: none;
-}
-
-.slider-arrow--next:hover, .slider-arrow--prev:hover {
-  @apply opacity-100;
-  outline: none;
-}
-
-.slider-arrow--prev {
-  transform: translateY(-50%) rotate(180deg);
-}
-
-.testimonial-slider .tns-item {
-  transform: scale(.8);
-}
-
-.testimonial-slider .tns-slide-active {
-  transform: scale(1);
-}
 
 @tailwind components;
 /* purgecss end ignore */

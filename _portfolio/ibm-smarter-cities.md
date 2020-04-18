@@ -6,18 +6,15 @@ role: Strategy
 company: IBM
 client: Belfast City Council
 time: 2013
-thumbnail: ibm-thumbnail
+thumbnail: smarter-cities-challenge
 animation: h-and-w
 testimonials:
-    - name: Kramer Johnson
-      title: Restaurant Training
+    - name: Susan Wylie
+      title: Director, Belfast City Council
       content: “Magic Metric Melanie. Thank you so much for putting your heart and soul into finding a solution for our city and embracing the city and its people with open arms.”
-    - name: Kramer Johnson
-      title: Restaurant Training
-      content: “Magic Metric Melanie. Thank you so much for putting your heart and soul into finding a solution for our city and embracing the city and its people with open arms.”
-    - name: Kramer Johnson
-      title: Restaurant Training
-      content: “Magic Metric Melanie. Thank you so much for putting your heart and soul into finding a solution for our city and embracing the city and its people with open arms.”
+    - name: Claire Shortt
+      title: Statistician, Belfast City Council
+      content: “You would be really impressed about the conversations that are going on about the ‘Melanie Measures’! Seriously though… you made a big impact and it’s something we can really deliver on.”
 slides:
   - image: belfast-1.jpg
   - image: belfast-2.jpg

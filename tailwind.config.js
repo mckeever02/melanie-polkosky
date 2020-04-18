@@ -1,10 +1,6 @@
 module.exports = {
   important: true,
   theme: {
-    fontFamily: {
-      display: ['GT Sectra', 'serif'],
-      body: ['GT Haptik', 'sans-serif'],
-    },
     borderWidth: {
       default: '1px',
       '0': '0',
@@ -48,6 +44,10 @@ module.exports = {
       screens: {
         'xxl': '1440px',
         'xxxl': '1920px'
+      },
+      fontFamily: {
+        display: ['GT Sectra', 'serif'],
+        body: ['GT Haptik', 'sans-serif'],
       },
     }
   },
