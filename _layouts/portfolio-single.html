@@ -7,33 +7,32 @@
     {% include navigation.html %}
     {% include hero.html %}
   </div>
-    <aside class="relative my-10 lg:my-0 lg:mt-16 px-4 lg:px-6 xl:px-0">
+    <aside class="relative mx-auto text-center my-10 lg:my-0 lg:mt-16 px-4 lg:px-6 xl:px-0">
       <div class="line absolute w-full left-0 h-px bg-slateGray top-50 z-10"></div>
-      <div class="relative mx-auto max-w-5xl mb-6 lg:mb-0">
+      <div class="relative mx-auto inline-block w-full md:w-auto max-w-5xl min-w-3xl mb-6 lg:mb-0">
         <div class="absolute top-0 left-0 w-full h-full border border-slateGray bg-darkGreen portfolio-item-accent z-20">
         </div>
-        <div
-          class="border bg-darkGreen border-slateGray flex w-full flex-col lg:flex-row px-5 lg:px-0 py-5 justify-between relative portfolio-metadata z-30">
+        <div class="border text-left bg-darkGreen border-slateGray flex flex-col md:flex-row px-5 lg:px-0 py-5 justify-between relative portfolio-metadata z-30">
           {% if page.role %}
-          <div class="block mb-3 lg:mb-0 lg:px-6">
+          <div class="block mb-3 lg:mb-0 lg:px-6 md:mr-10 lg:mr-12 xl:mr-16">
             <h4 class="uppercase font-body text-xs tracking-widest text-silver">Role</h4>
             <h3 class="font-body text-xl font-medium">{{page.role}}</h3>
           </div>
           {% endif %}
           {% if page.company %}
-          <div class="block mb-3 lg:mb-0 lg:px-6">
+          <div class="block mb-3 lg:mb-0 lg:px-6 md:mr-10 lg:mr-12 xl:mr-16">
             <h4 class="uppercase font-body text-xs tracking-widest text-silver">Company</h4>
             <h3 class="font-body text-xl font-medium">{{page.company}}</h3>
           </div>
           {% endif %}
           {% if page.client %}
-          <div class="block mb-3 lg:mb-0 lg:px-6">
+          <div class="block mb-3 lg:mb-0 lg:px-6 md:mr-10 lg:mr-12 xl:mr-16">
             <h4 class="uppercase font-body text-xs tracking-widest text-silver">Client</h4>
             <h3 class="font-body text-xl font-medium">{{page.client}}</h3>
           </div>
           {% endif %}
           {% if page.time %}
-          <div class="block mb-3 lg:mb-0 lg:px-6">
+          <div class="block mb-3 lg:mb-0 lg:px-6 md:mr-10 lg:mr-12 xl:mr-16">
             <h4 class="uppercase font-body text-xs tracking-widest text-silver">Time</h4>
             <h3 class="font-body text-xl font-medium">{{page.time}}</h3>
           </div>
@@ -41,49 +40,39 @@
         </div>
       </div>
     </aside>
-  <div class="mx-auto max-w-6xl px-8 lg:px-0">
+  <div class="mx-auto max-w-6xl px-4 sm:px-8 lg:px-0">
     <div class="mt-6 md:mt-16 mx-auto longform-text markdown-text sm:text-lg lg:text-xl">
       {{ content }}
-    </div
+
+      {% if page.audio %}
+      <div class="mt-12">
+        {% for item in page.audio %}
+        <div class="relative mb-12">
+          <h3 class="font-body mb-4 text-xl font-medium">{{item.title}}</h3>
+          <div class="relative">
+            <div class="border border-slateGray w-full h-full absolute z-10 audio-accent"></div>
+            <div class="audio-element">
+              <audio crossorigin>
+                <source src="/audio/{{item.link}}" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>
+        {%endfor%}
+      </div>
+      {%endif%}
+    </div>
 
   </div>
 
   {% if page.testimonials %}
-    <!-- <div class="relative mx-auto">
-      <div id="testimonial-slider" class="testimonial-slider mx-auto">
-        {% for item in page.testimonials %}
-        <div>
-          <blockquote class="rounded-lg bg-white text-black w-full text-center p-6 font-display text-2xl max-w-2xl">
-            {{item.content}}
-            <cite class="leading-tight mt-3 not-italic text-base block font-body font-medium text-slateGray">{{item.name}}</cite>
-            <span class="not-italic leading-tight text-base block font-body font-medium text-slateGray">{{item.title}}</span>
-          </blockquote>
-        </div>
-        {% endfor %}
-      </div>
-    </div> -->
+    {% include hr.html %}
+    {% include slider-testimonials.html %}
   {% endif %}
 
-
   {% if page.slides %}
-  <div class="relative">
-    <div class="slider-arrows">
-      <button class="slide-arrow slider-arrow--prev text-white absolute left-0 p-6 z-20"><svg class="w-10 h-10 lg:w-12 lg:h-12" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.266 1.023l-.782.743c-.195.195-.195.507 0 .664l6.055 6.054H1.22a.475.475 0 00-.469.47v1.093c0 .273.195.469.469.469h13.32l-6.055 6.093c-.195.157-.195.47 0 .664l.782.743c.156.195.468.195.664 0l8.164-8.164a.45.45 0 000-.665L9.93 1.024c-.196-.195-.508-.195-.664 0z" fill="currentColor" /></svg></button>
-      <button class="slide-arrow slider-arrow--next text-white absolute right-0 p-6 z-20"><svg class="w-10 h-10 lg:w-12 lg:h-12" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.266 1.023l-.782.743c-.195.195-.195.507 0 .664l6.055 6.054H1.22a.475.475 0 00-.469.47v1.093c0 .273.195.469.469.469h13.32l-6.055 6.093c-.195.157-.195.47 0 .664l.782.743c.156.195.468.195.664 0l8.164-8.164a.45.45 0 000-.665L9.93 1.024c-.196-.195-.508-.195-.664 0z" fill="currentColor" /></svg></button>
-    </div>
-    <div class="slider-overlay slider-overlay--left absolute top-0 left-0 h-full z-10"></div>
-    <div class="slider-overlay slider-overlay--right absolute top-0 right-0 h-full z-10"></div>
-    <div id="case-slider" class="slider relative">
-      {% for item in page.slides %}
-      <div>
-        <img src="/images/{{item.image}}" alt="{{item.title}}">
-        {% if item.title %}
-        <h4 class="font-medium font-body pt-2">↪ {{item.title}}</h4>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
+    {% include hr.html %}
+    {% include slider-image.html %}
   {% endif %}
 
   {% include prevnext.html %}
