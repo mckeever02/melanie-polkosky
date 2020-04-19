@@ -648,7 +648,8 @@ p a:hover {
           margin-top: -50%;
           border-radius: 50%; }
   .green-audio-player .controls {
-    @apply font-sans text-white text-base;
+    @apply font-body text-white text-base;
+    font-variant-numeric: tabular-nums;
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
