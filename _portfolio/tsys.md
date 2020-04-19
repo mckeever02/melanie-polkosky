@@ -3,11 +3,10 @@ layout: portfolio-single
 title: Simplifying website based on user knowledge.
 thumbnail_title: TSYS
 role: UX Research
-company: TSYS
-client: Human Factors International
+company: Human Factors International
+client: TSYS
 time: "2016"
 thumbnail: tsys-thumbnail
-animation: sweepr
 ---
 
 ## The Challenge
@@ -22,3 +21,7 @@ I was one of two researchers/designers tapped to evaluate the existing website f
 We radically transformed and simplified the information architecture of the site based on customer pain paints and understanding of TSYS offerings. We also created sample wireframes to show the flow of important content. Finally, over numerous meetings, we engaged with internal stakeholders to create alignment and the will to change across business units. Our work formed the basis of a comprehensive website redesign and elements of our recommendations are still visible in the website today.
 
 > We radically transformed and simplified the information architecture of the site based on customer pain paints and understanding of TSYS offerings.
+
+## Links for further reading
+
+1. [User Interview Findings Overview](/downloads/TSYS_User_Interview_Findings_Overview_103116.pdf)
