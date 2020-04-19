@@ -2,6 +2,7 @@
 layout: portfolio-single
 title: Early voice UI prototypes to improve Guest experience.
 role: UI Design
+category: UI Design
 thumbnail_title: Disney
 company: IBM
 client: Disney

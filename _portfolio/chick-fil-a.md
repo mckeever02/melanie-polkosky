@@ -1,7 +1,8 @@
 ---
 layout: portfolio-single
 title: Remote research program for employee training.
-role: User Research
+role: UX Research
+category: UX Research
 thumbnail_title: Chick-Fil-A
 company: Motivate Design
 client: Chick-Fil-A

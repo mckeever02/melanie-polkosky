@@ -2,7 +2,8 @@
 layout: portfolio-single
 title: Metric-based funding strategy for citywide social programs.
 thumbnail_title: IBM Smarter Cities Challenge
-role: Strategy
+role: Strategy Consulting
+category: Strategy Consulting
 company: IBM
 client: Belfast City Council
 time: 2013

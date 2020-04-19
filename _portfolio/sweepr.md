@@ -3,6 +3,7 @@ layout: portfolio-single
 title: Evidence-based personas for product differentiation.
 thumbnail_title: Sweepr
 role: SVP Customer Experience
+category: UX Research
 company: Sweepr
 time: "2019&ndash;Present"
 thumbnail: sweepr-thumbnail

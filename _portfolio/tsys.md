@@ -2,7 +2,8 @@
 layout: portfolio-single
 title: Simplifying website based on user knowledge.
 thumbnail_title: TSYS
-role: UX Research
+role: UI Design
+category: UI Design
 company: Human Factors International
 client: TSYS
 time: "2016"

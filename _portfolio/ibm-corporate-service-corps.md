@@ -2,7 +2,8 @@
 layout: portfolio-single
 title: CSR strategy and prioritized city initiatives.
 thumbnail_title: IBM Corporate Service Corps
-role: Strategy
+role: Strategy Consulting
+category: Strategy Consulting
 company: IBM
 time: 2012
 thumbnail: corporate-service-corps

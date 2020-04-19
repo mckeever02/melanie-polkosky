@@ -8,22 +8,29 @@ permalink: /portfolio/
 
 {% include hero.html %}
 
-<div class="mt-6 sm:mt-16 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-    {% assign portfolio = site.portfolio | sort: 'date' | reverse %}
-    {%for item in portfolio %}
-    <a href="{{item.url}}" class="portfolio-item relative text-white">
-        <div class="absolute top-0 left-0 w-full h-full bg-darkGreen border z-1 portfolio-item-accent"></div>
-        <div class="portfolio-item-box border bg-darkGreen relative z-2 overflow-hidden">
-            <img class="w-full" src="/images/{{item.thumbnail}}.svg" alt="{{item.client}}">
-            <div class="border border-b-0 border-l-0 border-r-0 px-6 py-4 relative z-10 bg-darkGreen">
-                <h3 class="font-body text-xl font-medium m-0">{{item.thumbnail_title}}</h3>
-                <p class="text-xl font-normal m-0">{{item.time}}</p>
-            </div>
+{% assign groups = site.portfolio | group_by: "category" | sort: "name" %}
 
-        </div>
-    </a>
+{% for group in groups %}
+<section class="mb-24">
+<h2 class="text-4xl m-0">{{ group.name }}</h2>
+    <div class="mt-6 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+    {% for item in group.items %}
+        <a href="{{item.url}}" class="portfolio-item relative text-white">
+            <div class="absolute top-0 left-0 w-full h-full bg-darkGreen border z-1 portfolio-item-accent"></div>
+            <div class="portfolio-item-box border bg-darkGreen relative z-2 overflow-hidden">
+                <img class="w-full" src="/images/{{item.thumbnail}}.svg" alt="{{item.client}}">
+                <div class="border border-b-0 border-l-0 border-r-0 px-6 py-4 relative z-10 bg-darkGreen">
+                    <h3 class="font-body text-xl font-medium m-0">{{item.thumbnail_title}}</h3>
+                    <p class="text-xl font-normal m-0">{{item.time}}</p>
+                </div>
+
+            </div>
+        </a>
     {%endfor%}
-</div>
+    </div>
+</section>
+{%endfor%}
+
 
 {% include hr.html %}
 
