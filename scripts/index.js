@@ -235,11 +235,15 @@ if (document.querySelector('.testimonial-glide')) {
     var testimonialGlide = new Glide('.testimonial-glide', {
         type: 'slider',
         startAt: 0,
-        perView: 2,
         gap: 0,
         keyboard: true,
-        focusAt: "center"
-
+        focusAt: "center",
+        perView: 2,
+        breakpoints: {
+            768: {
+                perView: 1,
+            }
+        }
     });
     testimonialGlide.mount()
 }
@@ -248,11 +252,15 @@ if (document.querySelector('.image-glide')) {
     var imageGlide = new Glide('.image-glide', {
         type: 'slider',
         startAt: 0,
-        perView: 2,
         gap: 40,
         keyboard: true,
-        focusAt: "center"
-
+        focusAt: "center",
+        perView: 2,
+        breakpoints: {
+            768: {
+                perView: 1
+            }
+        }
     });
     imageGlide.mount()
 }

@@ -740,10 +740,6 @@ p a:hover {
   width: 1px;
   word-wrap: normal; }
 
-.glide__slides {
-  align-items: center;
-}
-
 .glide__arrow--disabled {
     opacity: 0.33; }
 
@@ -753,13 +749,7 @@ p a:hover {
 }
 
 .glide__bullets {
-  position: absolute;
-  z-index: 2;
-  bottom: 2em;
-  left: 50%;
-  display: inline-flex;
-  list-style: none;
-  transform: translateX(-50%); }
+  @apply relative flex items-center justify-center; }
 
 .glide__bullet {
   background-color: rgba(255, 255, 255, 0.5);
@@ -816,6 +806,7 @@ p a:hover {
   transform: scale(1);
   @apply opacity-100;
 }
+
 
 .testimonial-glide .glide__slide--active .border, .image-glide .glide__slide--active .border {
   @apply border-white;

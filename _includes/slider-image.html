@@ -3,7 +3,7 @@
     {% include slide-overlays.html %}
     {% include slide-arrows.html %}
     <div data-glide-el="track" class="glide__track">
-        <ul class="glide__slides">
+        <ul class="glide__slides items-center">
             {% for item in page.slides %}
             <li class="glide__slide px-4">
                 <div class="relative">
@@ -16,5 +16,12 @@
             </li>
             {% endfor %}
         </ul>
+        <div class="glide__bullets md:hidden" data-glide-el="controls[nav]">
+            {% assign i = 0 %}
+            {% for item in page.slides %}
+            <button class="glide__bullet" data-glide-dir="={{i}}"></button>
+            {% assign i = i | plus:1 %}
+            {% endfor %}
+        </div>
     </div>
 </div>

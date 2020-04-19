@@ -1,21 +1,28 @@
-<h2 class="text-center text-3xl md:text-4xl mb-12">Testimonials</h2>
+<h2 class="text-center text-3xl md:text-4xl mb-6 sm:mb-12">Testimonials</h2>
 <div class="relative mx-auto testimonial-glide glide mb-16">
   {% include slide-overlays.html %}
   {% include slide-arrows.html %}
   <div data-glide-el="track" class="glide__track">
-    <ul class="glide__slides">
+    <ul class="glide__slides items-center">
       {% for slide in page.testimonials %}
-      <li class="glide__slide">
+      <li class="glide__slide p-6 md:p-0">
         <div class="relative max-w-2xl mx-auto">
           <div class="absolute h-full bg-darkGreen border top-0 z-10 testimonial-accent"></div>
-          <blockquote class="bg-darkGreen border text-white w-full text-center p-6 font-display text-2xl md:text-3xl font-bold relative z-20">
-            {{slide.content}}
-            <cite class="tracking-widest uppercase mt-6 not-italic text-base block font-body font-medium text-white">{{slide.name}}</cite>
+          <blockquote class="bg-darkGreen border text-white w-full text-center p-4 sm:p-6 font-display text-xl leading-snug sm:leading-normal sm:text-2xl md:text-3xl font-bold relative z-20">
+            &ldquo;{{slide.content}}&rdquo;
+            <cite class="tracking-widest uppercase mt-6 not-italic text-sm sm:text-base block font-body font-medium text-white">{{slide.name}}</cite>
             <span class="not-italic text-sm block font-body font-normal text-silver">{{slide.title}}</span>
           </blockquote>
         </div>
       </li>
       {% endfor %}
     </ul>
+      <div class="glide__bullets md:hidden" data-glide-el="controls[nav]">
+        {% assign i = 0 %}
+        {% for item in page.testimonials %}
+          <button class="glide__bullet" data-glide-dir="={{i}}"></button>
+          {% assign i = i | plus:1 %}
+        {% endfor %}
+      </div>
   </div>
 </div>
