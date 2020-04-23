@@ -5,7 +5,7 @@
 </footer>
 
 {% if page.animation %}
-<script src="/scripts/HaikuCore.4.5.1.min.js"></script>
+<script src="/scripts/HaikuCore.5.0.0.min.js"></script>
 {% endif %}
 
 {% if page.animation == "diamond" %}
@@ -25,9 +25,9 @@
 
 {% if page.permalink == "/coaching/" %}
 <!-- Coaching packet anim -->
-<script src="/scripts/coaching-packet-anim.js"></script>
+<script src="/scripts/polygon-anim.js"></script>
 <!-- Coaching session anim -->
-<script src="/scripts/coaching-session-anim.js"></script>
+<script src="/scripts/triangle-anim.js"></script>
 {% endif %}
 
 {% if page.animation == "h-and-w" %}
@@ -45,12 +45,21 @@
 <script src="/scripts/sweepr-anim.js"></script>
 {% endif %}
 
+{% if page.animation == "mickey-mouse" %}
+<!-- Mickey Mouse anim -->
+<script src="/scripts/mickey-mouse-anim.js"></script>
+{% endif %}
+
+{% if page.animation == "uae" %}
+<!-- UAE anim -->
+<script src="/scripts/uae-anim.js"></script>
+{% endif %}
+
 {% if page.slides or page.testimonials %}
 <!-- <script src="/scripts/tinyslider.min.js"></script> -->
 <script src="/scripts/glide.min.js"></script>
 
 {% endif %}
-
 
 <!-- Responsive Nav -->
 <script src="/scripts/responsive-nav.min.js"></script>

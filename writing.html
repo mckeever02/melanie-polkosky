@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Writing
-description: Words to share.
+description: Words to explain, highlight and share.
 animation: diamond
 permalink: /writing/
 ---
@@ -16,7 +16,7 @@ permalink: /writing/
         <div class="portfolio-item-box border bg-darkGreen relative z-2 overflow-hidden h-full">
             <div class="relative">
                 <div class="overlay absolute w-full h-full top-0 left-0 z-20"></div>
-                <img class="w-full" src="/images/{{item.image}}" alt="{{item.title}}">
+                <img loading="lazy" class="w-full" src="/images/{{item.image}}" alt="{{item.title}}">
             </div>
             <div class="border h-full border-b-0 border-l-0 border-r-0 px-6 py-4 relative z-10 bg-darkGreen">
                 <div class="flex mb-1 flex-row uppercase font-medium tracking-wide text-silver">
@@ -36,6 +36,6 @@ permalink: /writing/
 {% include hr.html %}
 
 <section class="py-12 lg:py-24 text-center">
-    <h2 class="text-3xl lg:text-5xl">I'm available for writing comissions</h2>
-    <a class="text-lg lg:text-2xl" href="mailto:{{site.email}}">{{site.email}}</a>
+    <h2 class="text-3xl lg:text-5xl">Want some words? </h2>
+    <p class="text-lg lg:text-2xl"><a href="mailto:{{site.email}}">Email me</a> for interviews, copywriting or other projects.</p>
 </section>

@@ -4,9 +4,37 @@
   image: silicon-republic-melanie2.jpg
   excerpt: Psychologist Dr Melanie Polkosky, who is senior VP of customer experience at Sweepr, reflects on her career path to date.
   url: https://www.siliconrepublic.com/people/melanie-polkosky-sweepr
+
 - title: How to design 'Must use' Customer Self-Service
   publication: The Quick Sweep
   date: Dec 2019
   image: how-to-design-self-service.png
   excerpt: One of the major value propositions of Sweepr’s intelligent self-service platform is its delivery of self-service support customized for users.
   url: https://sweepr.com/blog/20191220-must-use-customer-self-service
+
+- title: "Uncovering Truffles: The Scarcity and Value of Women in STEM"
+  publication: Book
+  date: 2015
+  image: how-to-design-self-service.png
+  excerpt: "Women in Science, Technology, Engineering and Match (STEM) are much like truffles: the unique and precious result of many variables converging in a single person. Like truffles, a STEM woman’s value may not be superficially obvious. She can be destroyed by an environment that disregards her unique, subtle but perishable characteristics. But, in the hands of a masterful chef, the truffle is treated like the treasure it is, a star of the finest cuisine in the world."
+  url: https://www.amazon.com/dp/B010J38CZW
+
+- title: "21 Days in Belfast: Muffins in the Freezer, Daddy’s in Charge and a Smarter Cities Challenge"
+  image: belfast-city-hall.jpg
+  publication: Blog
+  date: 2013
+  excerpt: "After 3 weeks of working 10-15 hour days and meeting with literally hundreds of stakeholders across Belfast, my team proposed a new way of making decisions and measuring outcomes:  we described the process, collaboration and technology changes that would lead to better city services and quality of life for all residents."
+  url: http://polkosky.blogspot.com
+
+- title: "September in Al Ain: A Month in the United Arab Emirates with IBM’s Corporate Service Corps"
+  image: uae-skyline.jpg
+  publication: Blog
+  date: 2013
+  excerpt: "I quickly marched through the introduction to our project, method and the CSR strategy we had developed jointly with department representatives of the Municipality.  As I talked, the senior Emirati nodded occasionally with a relaxed face as he listened, his dark eyes intense."
+  url: http://polkosky.blogspot.com
+
+- title: "Expanding the MOS: Development and Psychometric Evaluation of the MOS-R and MOS-X"
+  publication: International Journal of Speech Technology
+  date: 2003
+  excerpt: "Our initial experiments documented the reliability, validity, sensitivity, and factor structure of the Mean Opinion Scale and used psychometric principles to revise and improve the scale. This work resulted in the MOS-Revised (MOS-R)."
+  url:  https://www.researchgate.net/publication/226484546_Expanding_the_MOS_Development_and_psychometric_evaluation_of_the_MOS-R_and_MOS-X

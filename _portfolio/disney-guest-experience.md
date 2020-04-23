@@ -8,7 +8,7 @@ company: IBM
 client: Disney
 time: 2005
 thumbnail: disney-thumbnail
-animation: disney
+animation: mickey-mouse
 audio:
     - link: visionclip-1.mp3
       title: Vision Clip Dine Full Automation

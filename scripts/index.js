@@ -113,11 +113,35 @@ if (document.getElementById('diamond')) {
     );
 }
 
+if (document.getElementById('mickey-mouse')) {
+    HaikuComponentEmbed_mckvr4_mickeyMouse(
+        document.getElementById('mickey-mouse'),
+        {
+            loop: false,
+            contextMenu: 'disabled',
+            sizing: "contain"
+        }
+    );
+}
+
+if (document.getElementById('uae')) {
+    HaikuComponentEmbed_mckvr4_uae(
+        document.getElementById('uae'),
+        {
+            loop: false,
+            contextMenu: 'disabled',
+            sizing: "contain"
+        }
+    );
+}
+
 let coachingPacket = document.querySelector('#coaching-packet');
 let coachingSession = document.querySelector('#coaching-session');
 
 
 var polygonAnim;
+var triangleAnim;
+
 
 if (document.getElementById('polygon')) {
     polygonAnim = HaikuComponentEmbed_mckvr4_Polygon(
@@ -130,7 +154,6 @@ if (document.getElementById('polygon')) {
     );
 }
 
-var triangleAnim;
 
 if (document.getElementById('triangle')) {
     triangleAnim = HaikuComponentEmbed_mckvr4_Triangle(
@@ -141,6 +164,30 @@ if (document.getElementById('triangle')) {
             contextMenu: 'disabled'
         }
     );
+}
+
+if (coachingPacket) {
+    coachingPacket.addEventListener('mouseenter', function () {
+        polygonAnim.play()
+    })
+}
+
+if (coachingPacket) {
+    coachingPacket.addEventListener('mouseleave', function () {
+        polygonAnim.stop()
+    })
+}
+
+if (coachingSession) {
+    coachingSession.addEventListener('mouseenter', function () {
+        triangleAnim.play()
+    })
+}
+
+if (coachingSession) {
+    coachingSession.addEventListener('mouseleave', function () {
+        triangleAnim.stop()
+    })
 }
 
 // if (document.getElementById('case-slider')) {
@@ -200,30 +247,6 @@ var nav = responsiveNav(".nav-collapse", { // Selector
     close: function () { } // Function: Close callback
 });
 
-
-if (coachingPacket) {
-    coachingPacket.addEventListener('mouseenter', function () {
-        polygonAnim.play()
-    })
-}
-
-if (coachingPacket) {
-    coachingPacket.addEventListener('mouseleave', function () {
-        polygonAnim.stop()
-    })
-}
-
-if (coachingSession) {
-    coachingSession.addEventListener('mouseenter', function () {
-        triangleAnim.play()
-    })
-}
-
-if (coachingSession) {
-    coachingSession.addEventListener('mouseleave', function () {
-        triangleAnim.stop()
-    })
-}
 if (document.querySelector('.audio-element')) {
     GreenAudioPlayer.init({
         selector: '.audio-element',

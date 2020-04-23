@@ -7,7 +7,7 @@ category: Strategy Consulting
 company: IBM
 time: 2012
 thumbnail: corporate-service-corps
-animation: h-and-w
+animation: uae
 slides:
   - image: uae-1.jpg
   - image: uae-2.jpg
