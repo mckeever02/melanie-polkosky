@@ -8,6 +8,7 @@ company: Human Factors International
 client: TSYS
 time: "2016"
 thumbnail: tsys-thumbnail
+animation: website
 ---
 
 ## The Challenge

@@ -135,6 +135,17 @@ if (document.getElementById('uae')) {
     );
 }
 
+if (document.getElementById('website')) {
+    HaikuComponentEmbed_mckvr4_Website(
+        document.getElementById('website'),
+        {
+            loop: false,
+            contextMenu: 'disabled',
+            sizing: "contain"
+        }
+    );
+}
+
 let coachingPacket = document.querySelector('#coaching-packet');
 let coachingSession = document.querySelector('#coaching-session');
 

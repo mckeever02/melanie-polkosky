@@ -112,7 +112,7 @@
 
 @screen xxl {
   .hero-title {
-    @apply text-7xl;
+    @apply text-9xl;
   }
 }
 
