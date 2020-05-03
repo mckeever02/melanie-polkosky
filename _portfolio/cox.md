@@ -3,11 +3,11 @@ layout: portfolio-single
 title: Copywriting for easy self-install instructions.
 role: Project Lead
 category: UI Design
-thumbnail_title: Chick-Fil-A
+thumbnail_title: Cox
 company: Motivate Design
 client: Cox
 time: 2018
-thumbnail: chick-fil-a-thumbnail
+thumbnail: cox
 animation: bowls
 ---
 
