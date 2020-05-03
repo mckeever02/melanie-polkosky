@@ -36,6 +36,11 @@ module.exports = {
         lightAquamarine: '#04ECC2',
         offBlack: '#131320'
       },
+      maxWidth: {
+        '2xs': '16rem',
+        '3xs': '12rem',
+        '4xs': '8rem'
+      },
       spacing: {
         '7': '1.75rem',
         '18': '4.5rem',

@@ -366,6 +366,11 @@ p a:hover {
   transform: translate(8px, 8px);
 }
 
+.tabs {
+  white-space: nowrap;
+  overflow: auto;
+}
+
 .tab {
   @apply border-2 border-transparent font-normal text-silver;
 }
