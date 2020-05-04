@@ -51,7 +51,7 @@ module.exports = {
       },
       screens: {
         'xxl': '1440px',
-        'xxxl': '5000px'
+        'xxxl': '1920px'
       },
       fontFamily: {
         display: ['GT Sectra', 'serif'],
