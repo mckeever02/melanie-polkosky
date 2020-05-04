@@ -3,12 +3,12 @@
     {% include slide-overlays.html %}
     {% include slide-arrows.html %}
     <div data-glide-el="track" class="glide__track">
-        <ul class="glide__slides items-center">
+        <ul class="glide__slides">
             {% for item in page.slides %}
             <li class="glide__slide px-4">
                 <div class="relative">
-                    <div class="absolute top-0 left-0 w-full h-full border img-accent z-10"></div>
-                    <img class="relative z-20" src="/images/{{item.image}}" alt="{{item.title}}">
+                    <!-- <div class="absolute top-0 left-0 w-full h-full border img-accent z-10"></div> -->
+                    <img class="relative mx-auto z-20" src="/images/{{item.image}}" alt="{{item.title}}">
                     {% if item.title %}
                     <h4 class="font-medium font-body pt-2">↪ {{item.title}}</h4>
                     {% endif %}

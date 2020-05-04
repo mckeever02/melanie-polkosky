@@ -22,7 +22,7 @@ slides:
   - image: belfast-3.jpg
 ---
 
-![Belfast City Hall](/images/belfast-city-hall.jpg)
+![Belfast City Hall](/images/belfast-city-hall-lg.jpg)
 {: .longform-img}
 
 ## The Challenge

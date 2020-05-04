@@ -51,12 +51,15 @@ module.exports = {
       },
       screens: {
         'xxl': '1440px',
-        'xxxl': '1920px'
+        'xxxl': '5000px'
       },
       fontFamily: {
         display: ['GT Sectra', 'serif'],
         body: ['GT Haptik', 'sans-serif'],
       },
+      boxShadow: {
+        '3xl': '0 10px 70px 0 rgba(0, 0, 0, .5)'
+      }
     }
   },
 }

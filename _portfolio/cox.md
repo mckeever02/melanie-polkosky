@@ -8,7 +8,11 @@ company: Motivate Design
 client: Cox
 time: 2018
 thumbnail: cox
-animation: bowls
+animation:
+slides:
+  - image: cox-workshop-1.jpg
+  - image: cox-workshop-3.jpg
+  - image: cox-workshop-4.jpg
 ---
 
 ## The Challenge

@@ -19,7 +19,7 @@ slides:
 
 I was invited to be a part of IBM’s Corporate Service Corps’ second team to visit the United Arab Emirates. Our client, Al Ain Municipality, wanted my subteam to develop a corporate social responsibility (CSR) strategy, priorities and initiatives during an intense month of in-country consulting.
 
-![Dubai skyline](/images/uae-skyline.jpg)
+![Dubai skyline](/images/uae-skyline-lg.jpg)
 {: .longform-img}
 
 The Corporate Service Corps was IBM’s premier global leadership training program. My team consisted of 11 IBMers from Canada, Colombia, India, Germany, Japan and the United States.
