@@ -8,7 +8,7 @@ permalink: /writing/
 
 {% include hero.html %}
 
-<div class="mt-6 sm:mt-16 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-12">
+<div class="mt-6 sm:mt-16 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-5xl">
     {% assign writing = site.data.writing %}
     {%for item in writing %}
     <a href="{{item.url}}" target="_blank" rel="noopener noreferrer" class="portfolio-item article-item relative text-white">

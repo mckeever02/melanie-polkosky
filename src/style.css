@@ -167,6 +167,10 @@ p a:hover {
   transition-property: all;
 }
 
+.social-arrow svg {
+  top: 6px;
+}
+
 .link-arrow3 svg {
   top: 14px;
 }
@@ -359,7 +363,7 @@ p a:hover {
 }
 
 .collection-item:hover img {
-  @apply opacity-25;
+  @apply opacity-10;
 }
 
 .cta-hover:hover .cta-accent, .portfolio-item:hover .portfolio-item-accent {
@@ -825,7 +829,6 @@ p a:hover {
     background: linear-gradient(90deg, rgba(25,65,72,0) 0%, rgba(25,65,72,0.8953956582633054) 60%, rgba(25,65,72,1) 100%);
   }
 }
-
 
 @tailwind components;
 /* purgecss end ignore */

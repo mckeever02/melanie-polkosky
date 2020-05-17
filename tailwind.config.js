@@ -1,5 +1,8 @@
 module.exports = {
   important: true,
+  variants: {
+    opacity: ['responsive', 'hover', 'focus', 'group-hover', 'visited'],
+  },
   theme: {
     borderWidth: {
       default: '1px',
@@ -35,6 +38,9 @@ module.exports = {
         aquamarine: '#04e3bb',
         lightAquamarine: '#04ECC2',
         offBlack: '#131320'
+      },
+      opacity: {
+        10: '.1'
       },
       maxWidth: {
         '2xs': '16rem',
