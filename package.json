@@ -15,7 +15,8 @@
     "gulp": "4.0.2",
     "gulp-postcss": "8.0.0",
     "postcss-import": "12.0.1",
-    "tailwindcss": "1.2.0"
+    "tailwindcss": "1.2.0",
+    "gulp-babel": "8.0.0"
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",
@@ -38,6 +39,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
+    "netlify-cms": "^2.10.48",
     "wavesurfer.js": "^3.3.3"
   }
 }
