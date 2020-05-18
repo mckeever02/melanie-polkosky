@@ -1,16 +1,16 @@
 ---
-layout: portfolio-single
-title: Conversational Bootcamp for voice UX professionals.
-role: Training
-category: Training
+animation: null
 thumbnail_title: Allstate
-company: Motivate Design
+layout: portfolio-single
 client: Allstate
-time: 2018
 thumbnail: allstate
-animation:
+time: 2018
+date: 2020-05-18T21:22:16.132Z
+role: Training
+title: Conversational Bootcamp for voice UX professionals.
+company: Motivate Design
+category: Training
 ---
-
 ## The Challenge
 
 The Conversational UX team at Allstate had been increasing in size and their manager, Susan Thome, approached me about training the team in psychology and UX methods appropriate for voice user interface design.
