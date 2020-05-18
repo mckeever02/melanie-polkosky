@@ -1,4 +1,9 @@
 ---
+details:
+  role: dd
+  company: dd
+  client: dd
+  time: dd
 animation: null
 thumbnail_title: Allstate
 layout: portfolio-single
@@ -9,7 +14,7 @@ date: 2020-05-18T21:22:16.132Z
 role: Training
 title: Conversational Bootcamp for voice UX professionals.
 company: Motivate Design
-category: Training
+category: Strategy Consulting
 ---
 ## The Challenge
 
