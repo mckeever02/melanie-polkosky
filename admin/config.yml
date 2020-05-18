@@ -16,18 +16,14 @@ collections:
     fields:
       - { label: 'Title', name: 'thumbnail_title', widget: 'string', required: true,  }
       - { label: 'Page Title', name: 'title', widget: 'string', required: true,  }
-      - { label: 'Category', name: 'category', widget: 'select', required: true, options: ['Strategy Consulting', 'training', 'UI Design', 'UX Research'] }
+      - { label: 'Category', name: 'category', widget: 'select', required: true, options: ['Strategy Consulting', 'Training', 'UI Design', 'UX Research'] }
+      - { label: 'Role', name: 'role', widget: 'string', required: false }
+      - { label: 'Company', name: 'company', widget: 'string', required: false }
+      - { label: 'Client', name: 'client', widget: 'string', required: false }
+      - { label: 'Time', name: 'time', widget: 'string', required: false }
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'portfolio-single' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: "Details"
-        name: "details"
-        widget: "object"
-        fields:
-          - { label: 'Role', name: 'role', widget: 'string' }
-          - { label: 'Company', name: 'company', widget: 'string' }
-          - { label: 'Client', name: 'client', widget: 'string' }
-          - { label: 'Time', name: 'time', widget: 'string' }
   - name: 'writing'
     label: 'writing'
     folder: '_writing/'
