@@ -7,12 +7,20 @@ media_folder: 'images/'
 
 collections:
   - name: 'portfolio'
+    editor:
+        preview: false
     label: 'Portfolio'
+    slug: '{{slug}}'
     folder: '_portfolio/'
     fields:
-      - { name: Title }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'portfolio-single' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+    create: true
   - name: 'writing'
     label: 'writing'
     folder: '_writing/'
     fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { name: Title }
