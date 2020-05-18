@@ -13,7 +13,7 @@ category: Training
 ---
 ## The Challenge
 
-The blurt UX team at Allstate had been increasing in size and their manager, Susan Thome, approached me about training the team in psychology and UX methods appropriate for voice user interface design.
+The Conversational UX team at Allstate had been increasing in size and their manager, Susan Thome, approached me about training the team in psychology and UX methods appropriate for voice user interface design.
 
 ## The Solution
 
