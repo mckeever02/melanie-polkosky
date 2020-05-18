@@ -12,6 +12,7 @@ collections:
     label: 'Portfolio'
     slug: '{{slug}}'
     folder: '_portfolio/'
+    create: true
     fields:
       - { label: 'Title', name: 'thumbnail_title', widget: 'string', required: true,  }
       - { label: 'Page Title', name: 'title', widget: 'string', required: true,  }
@@ -27,7 +28,6 @@ collections:
           - { label: 'Company', name: 'company', widget: 'string' }
           - { label: 'Client', name: 'client', widget: 'string' }
           - { label: 'Time', name: 'time', widget: 'string' }
-      create: true
   - name: 'writing'
     label: 'writing'
     folder: '_writing/'
