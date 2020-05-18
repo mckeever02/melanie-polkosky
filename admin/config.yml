@@ -34,3 +34,18 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { name: Title }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'About Page'
+        name: 'about'
+        file: 'about.html'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Page Title', name: 'title', widget: 'string' }
+          - { label: 'Page Description', name: 'description', widget: 'string' }
+          - { label: 'Animation', name: 'animation', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
