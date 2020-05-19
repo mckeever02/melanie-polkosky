@@ -24,12 +24,20 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'portfolio-single' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      # - label: "Details"
+      #   name: "details"
+      #   widget: "object"
+      #   fields:
+      #     - { label: 'Role', name: 'role', widget: 'string', required: false }
+      #     - { label: 'Company', name: 'company', widget: 'string', required: false }
+      #     - { label: 'Client', name: 'client', widget: 'string', required: false }
+      #     - { label: 'Time', name: 'time', widget: 'string', required: false }
   - name: 'writing'
     label: 'writing'
     folder: '_writing/'
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { name: Title }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'writing' }
+      - { name: Title, label: 'Title', widget: 'string', required: true  }
   - name: 'pages'
     label: 'Pages'
     editor:
