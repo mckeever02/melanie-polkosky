@@ -1,0 +1,24 @@
+---
+---
+
+<a href="{{page.url}}" target="_blank" rel="noopener noreferrer"
+  class="portfolio-page article-page relative text-white">
+  <div class="absolute top-0 left-0 w-full h-full bg-darkGreen border z-1 portfolio-page-accent"></div>
+  <div class="portfolio-page-box border bg-darkGreen relative z-2 overflow-hidden h-full">
+    <div class="relative">
+      <div class="overlay absolute w-full h-full top-0 left-0 z-20"></div>
+      <img loading="lazy" class="w-full" src="/images/{{page.image}}{{page.type}}"
+        srcset="/images/{{page.image}}{{page.type}} 1x, /images/{{page.image}}@2x{{page.type}} 2x" alt="{{page.title}}">
+    </div>
+    <div class="border h-full border-b-0 border-l-0 border-r-0 px-6 py-4 relative z-10 bg-darkGreen">
+      <div class="flex mb-1 flex-row uppercase font-medium tracking-wide text-silver">
+        <span class="block">{{page.time}}</span>
+        <span class="px-2">&bull;</span>
+        <span class="block truncate">{{page.publication}}</span>
+      </div>
+      <h3 class="text-3xl leading-tight mb-2">{{page.title}}</h3>
+      <p class="font-normal text-xl text-silver mb-4">{{page.excerpt}}</p>
+    </div>
+
+  </div>
+</a>

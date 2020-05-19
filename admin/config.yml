@@ -35,13 +35,14 @@ collections:
       #     - { label: 'Client', name: 'client', widget: 'string', required: false }
       #     - { label: 'Time', name: 'time', widget: 'string', required: false }
   - name: 'writing'
-    extension: yml
     create: true
-    slug: '{{slug}}'
     label: 'Writing Page'
+    editor:
+        preview: false
     folder: '_writing/'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'writing' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: true }
       - { label: 'Title', name: 'title', widget: 'string', required: true  }
       - { label: 'Publication', name: 'publication', widget: 'string', required: true  }
