@@ -52,10 +52,10 @@ collections:
     files:
       - label: 'Home Page'
         name: 'home'
-        file: 'home.html'
+        file: 'index.html'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'home' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
           - { label: 'Page Title', name: 'subtitle', widget: 'string' }
           - { label: 'Page Description', name: 'description', widget: 'string' }
           - label: "Intro Section"
@@ -72,4 +72,4 @@ collections:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
           - { label: 'Page Description', name: 'description', widget: 'string' }
           - { label: 'Animation', name: 'animation', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'code' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
