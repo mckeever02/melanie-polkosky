@@ -11,7 +11,7 @@ collections:
     identifier_field: thumbnail_title
     editor:
         preview: false
-    label: 'Portfolio'
+    label: 'Portfolio Page'
     slug: '{{slug}}'
     folder: '_portfolio/'
     create: true
@@ -38,7 +38,7 @@ collections:
     extension: yml
     create: true
     slug: '{{slug}}'
-    label: 'writing'
+    label: 'Writing Page'
     folder: '_writing/'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'writing' }
@@ -50,13 +50,22 @@ collections:
     editor:
       preview: false
     files:
+      - label: 'Home Page'
+          name: 'home'
+          file: 'home.html'
+          fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+            - { label: 'Page Title', name: 'title', widget: 'string' }
+            - { label: 'Page Description', name: 'description', widget: 'string' }
+            - { label: 'Body', name: 'body', widget: 'code' }
       - label: 'About Page'
         name: 'about'
         file: 'about.html'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
           - { label: 'Page Title', name: 'title', widget: 'string' }
           - { label: 'Page Description', name: 'description', widget: 'string' }
-          - { label: 'Animation', name: 'an', widget: 'string' }
+          - { label: 'Animation', name: 'animation', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'code' }
