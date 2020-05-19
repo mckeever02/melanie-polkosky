@@ -42,7 +42,9 @@ collections:
     folder: '_writing/'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'writing' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: true }
       - { label: 'Title', name: 'title', widget: 'string', required: true  }
+      - { label: 'Publication', name: 'publication', widget: 'string', required: true  }
       - { label: 'URL', name: 'url', widget: 'string', required: true  }
       - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: true }
   - name: 'pages'
@@ -51,7 +53,7 @@ collections:
       preview: false
     files:
       - label: 'Home Page'
-        name: 'home'
+        name: 'index'
         file: 'index.html'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'home' }
