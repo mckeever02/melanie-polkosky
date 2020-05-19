@@ -1,9 +1,9 @@
 ---
-details:
-  role: dd
-  company: dd
-  client: dd
-  time: dd
+# details:
+#   role: dd
+#   company: dd
+#   client: dd
+#   time: dd
 animation: null
 thumbnail_title: Allstate
 layout: portfolio-single
