@@ -59,4 +59,4 @@ collections:
           - { label: 'Page Title', name: 'title', widget: 'string' }
           - { label: 'Page Description', name: 'description', widget: 'string' }
           - { label: 'Animation', name: 'an', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Body', name: 'body', widget: 'code' }
