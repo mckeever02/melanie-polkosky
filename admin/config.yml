@@ -54,18 +54,22 @@ collections:
           name: 'home'
           file: 'home.html'
           fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-            - { label: 'Page Title', name: 'title', widget: 'string' }
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'home' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
+            - { label: 'Page Title', name: 'subtitle', widget: 'string' }
             - { label: 'Page Description', name: 'description', widget: 'string' }
-            - { label: 'Body', name: 'body', widget: 'code' }
+            - label: "Intro Section"
+              name: "intro_section"
+              widget: "object"
+              fields:
+                - { label: 'Column 1', name: 'intro_column_1', widget: 'text', required: true }
+                - { label: 'Column 2', name: 'intro_column_2', widget: 'text', required: true }
       - label: 'About Page'
         name: 'about'
         file: 'about.html'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-          - { label: 'Page Title', name: 'title', widget: 'string' }
           - { label: 'Page Description', name: 'description', widget: 'string' }
           - { label: 'Animation', name: 'animation', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'code' }
