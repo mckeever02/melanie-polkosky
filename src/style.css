@@ -411,11 +411,15 @@ p a:hover {
 }
 
 .delay-2 {
-  animation-delay: .6s;
+  animation-delay: .5s;
 }
 
 .delay-3 {
-  animation-delay: 1s;
+  animation-delay: .8s;
+}
+
+.delay-4 {
+  animation-delay: 1.2s;
 }
 
 @keyframes fadeMoveIn {
