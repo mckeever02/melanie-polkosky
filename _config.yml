@@ -10,6 +10,7 @@ collections:
     collections_dir: portfolio
   writing:
     output: false
+    collections_dir: writing
 
 permalink: pretty
 

@@ -9,7 +9,7 @@ permalink: /writing/
 {% include hero.html %}
 
 <div class="mt-6 sm:mt-16 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-5xl">
-    {% assign writing = site.data.writing %}
+    {% assign writing = (site.writing | sort: 'date') | reverse %}
     {%for item in writing %}
     <a href="{{item.url}}" target="_blank" rel="noopener noreferrer" class="portfolio-item article-item relative text-white">
         <div class="absolute top-0 left-0 w-full h-full bg-darkGreen border z-1 portfolio-item-accent"></div>
@@ -20,7 +20,7 @@ permalink: /writing/
             </div>
             <div class="border h-full border-b-0 border-l-0 border-r-0 px-6 py-4 relative z-10 bg-darkGreen">
                 <div class="flex mb-1 flex-row uppercase font-medium tracking-wide text-silver">
-                    <span class="block">{{item.date}}</span>
+                    <span class="block">{{item.time}}</span>
                     <span class="px-2">&bull;</span>
                     <span class="block truncate">{{item.publication}}</span>
                 </div>

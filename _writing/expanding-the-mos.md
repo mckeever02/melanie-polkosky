@@ -3,6 +3,7 @@ layout: writing-single
 title: "Expanding the MOS: Development and Psychometric Evaluation of the MOS-R and MOS-X"
 publication: International Journal of Speech Technology
 time: 2003
+date: 18/05/2020
 image: speech-journal
 type: .jpg
 excerpt: "Our initial experiments documented the reliability, validity, sensitivity, and factor structure of the Mean Opinion Scale and used psychometric principles to revise and improve the scale. This work resulted in the MOS-Revised (MOS-R)."
