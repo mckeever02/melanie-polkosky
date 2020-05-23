@@ -8,7 +8,7 @@ company: Motivate Design
 client: Cox
 time: 2018
 thumbnail: cox
-animation:
+animation: copywriting
 slides:
   - image: cox-workshop-1.jpg
   - image: cox-workshop-3.jpg

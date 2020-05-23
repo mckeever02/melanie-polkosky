@@ -145,6 +145,28 @@ if (document.getElementById('website')) {
     );
 }
 
+if (document.getElementById('voice')) {
+    HaikuComponentEmbed_mckvr4_Voice(
+        document.getElementById('voice'),
+        {
+            loop: false,
+            contextMenu: 'disabled',
+            sizing: "contain"
+        }
+    );
+}
+
+if (document.getElementById('copywriting')) {
+    HaikuComponentEmbed_mckvr4_Copywriting(
+        document.getElementById('copywriting'),
+        {
+            loop: false,
+            contextMenu: 'disabled',
+            sizing: "contain"
+        }
+    );
+}
+
 let coachingPacket = document.querySelector('#coaching-packet');
 let coachingSession = document.querySelector('#coaching-session');
 

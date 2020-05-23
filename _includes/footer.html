@@ -5,7 +5,7 @@
 </footer>
 
 {% if page.animation %}
-<script src="/scripts/HaikuCore.5.0.0.min.js"></script>
+<script src="/scripts/HaikuCore.5.1.0.min.js"></script>
 {% endif %}
 
 {% if page.animation == "diamond" %}
@@ -59,6 +59,17 @@
 <!-- Website anim -->
 <script src="/scripts/website-anim.js"></script>
 {% endif %}
+
+{% if page.animation == "voice" %}
+<!-- Website anim -->
+<script src="/scripts/voice-anim.js"></script>
+{% endif %}
+
+{% if page.animation == "copywriting" %}
+<!-- Website anim -->
+<script src="/scripts/copywriting-anim.js"></script>
+{% endif %}
+
 
 {% if page.slides or page.testimonials %}
 <!-- <script src="/scripts/tinyslider.min.js"></script> -->

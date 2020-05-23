@@ -15,6 +15,7 @@ role: Training
 title: Conversational Bootcamp for voice UX professionals.
 company: Motivate Design
 category: Strategy Consulting
+animation: voice
 ---
 ## The Challenge
 
