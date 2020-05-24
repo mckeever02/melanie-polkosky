@@ -43,11 +43,17 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'writing' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: true }
+      - { label: 'Visible ', name: 'excerpt', widget: 'text', required: true }
       - { label: 'Title', name: 'title', widget: 'string', required: true  }
       - { label: 'Publication', name: 'publication', widget: 'string', required: true  }
       - { label: 'URL', name: 'url', widget: 'string', required: true  }
       - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: true }
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        media_library:
+          config:
+            multiple: true
   - name: 'pages'
     label: 'Pages'
     editor:
