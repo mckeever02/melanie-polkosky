@@ -4,7 +4,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'images/'
-site_url: melaniepolkosky.com
+site_url: https://melaniepolkosky.com
 
 collections:
   - name: 'portfolio'
@@ -42,15 +42,16 @@ collections:
     folder: '_writing/'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'writing' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Visible ', name: 'excerpt', widget: 'text', required: true }
       - { label: 'Title', name: 'title', widget: 'string', required: true  }
-      - { label: 'Publication', name: 'publication', widget: 'string', required: true  }
-      - { label: 'URL', name: 'url', widget: 'string', required: true  }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: true }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', hint: 'The date used for sorting. Leave set to Now to display as most recent' }
+      - { label: 'Publication Date', name: 'time', widget: 'string', hint: 'The displayed date for the article e.g. Apr 2020' }
+      - { label: 'Excerpt ', name: 'excerpt', widget: 'text', required: true, hint: 'The article excerpt to be displayed. Try to keep it short and sweet.' }
+      - { label: 'Publication', name: 'publication', widget: 'string', required: true, hint: 'Where the article was published e.g. Silicon Republic'  }
+      - { label: 'URL', name: 'url', widget: 'string', required: true, hint: 'The URL to the article'  }
       - label: "Featured Image"
         name: "image"
         widget: "image"
+        hint: 'Please size to 1100px by 620px'
         media_library:
           config:
             multiple: true
