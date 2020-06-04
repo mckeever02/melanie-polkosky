@@ -8,31 +8,23 @@ permalink: /portfolio/
 
 {% include hero.html %}
 
-{% assign groups = site.portfolio | group_by: "category" | sort: "name" %}
+{% assign portfolio = site.portfolio | sort: "date" %}
 
-<div class="mt-6 sm:mt-16">
-    {% for group in groups %}
-    <section>
-        <h1 id="{{group.name | slugify}}" class="text-2xl sm:text-3xl md:text-4xl leading-tight">{{ group.name }}</h1>
-        <div class="mt-6 md:mt-8 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-            {% for item in group.items %}
-            <a href="{{item.url}}" class="portfolio-item relative text-white group">
-                <div class="absolute top-0 left-0 w-full h-full bg-darkGreen border z-1 portfolio-item-accent"></div>
-                <div class="portfolio-item-box border bg-darkGreen relative z-2 overflow-hidden">
-                    <img class="w-full opacity-25 group-hover:opacity-75" src="/images/{{item.thumbnail}}.svg" alt="{{item.client}}">
-                    <div class="border border-b-0 border-l-0 border-r-0 px-6 py-4 relative z-10 bg-darkGreen">
-                        <h3 class="font-body text-xl font-medium m-0">{{item.thumbnail_title}}</h3>
-                        <p class="text-xl font-normal m-0">{{item.time}}</p>
-                    </div>
-
+<section class="mt-6 md:mt-8 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+    {% for item in portfolio %}
+        <a href="{{item.url}}" class="portfolio-item relative text-white group">
+            <div class="absolute top-0 left-0 w-full h-full bg-darkGreen border z-1 portfolio-item-accent"></div>
+            <div class="portfolio-item-box border bg-darkGreen relative z-2 overflow-hidden">
+                <img class="w-full opacity-25 group-hover:opacity-75" src="/images/{{item.thumbnail}}.svg" alt="{{item.client}}">
+                <div class="border border-b-0 border-l-0 border-r-0 px-6 py-4 relative z-10 bg-darkGreen">
+                    <h3 class="font-body text-xl font-medium m-0">{{item.thumbnail_title}}</h3>
+                    <p class="text-xl font-normal m-0">{{item.time}}</p>
                 </div>
-            </a>
-            {%endfor%}
-        </div>
-    </section>
-    {% include hr.html %}
+
+            </div>
+        </a>
     {%endfor%}
-</div>
+</section>
 
 <section class="py-12 lg:py-24 text-center">
     <h2 class="text-3xl lg:text-5xl">Want to chat?</h2>

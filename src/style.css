@@ -388,6 +388,15 @@ p a:hover {
   transform: translateY(-50%) scale(1.1);
 }
 
+.form-group:before {
+    content: "";
+    @apply absolute w-full h-full border border-offBlack bg-white top-0 left-0;
+}
+
+.form-group:focus-within::before {
+  @apply bg-lightAquamarine;
+}
+
 .fade-move-in {
   animation-name: fadeMoveIn;
   animation-duration: .8s;
@@ -584,6 +593,14 @@ p a:hover {
 }
 ::selection {
   @apply bg-white text-white
+}
+
+.input-base::-moz-selection {
+  @apply bg-aquamarine;
+}
+
+.input-base::selection {
+  @apply bg-aquamarine;
 }
 
 .green-audio-player {
