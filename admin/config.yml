@@ -7,6 +7,7 @@ media_folder: 'images/'
 site_url: https://melaniepolkosky.com
 media_library:
   name: cloudinary
+  output_filename_only: true
   config:
     cloud_name: mckvr
     api_key: 146799337454777
