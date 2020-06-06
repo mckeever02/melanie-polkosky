@@ -16,6 +16,12 @@ title: Conversational Bootcamp for voice UX professionals.
 company: Motivate Design
 category: Strategy Consulting
 animation: voice
+testimonials:
+      - content: This was as good an example of a two day workshop as I have experienced in my 20 years as a UX professional.  Not only does Melanie have command of the subject at a level very few others (if any) can match, but her standards for presentation, instruction, and creating an  impactful learning experience are very rare in our field.
+      - content: I loved that Melanie was experienced in both chat and IVR so that we had a customized experience that was thought to be impossible.
+      - content: I learned a lot of the theory behind what 'makes' conversations, and what makes them good... which in turn helped me learn how to objectively analyze and critique designs.
+      - content: I found it to be extremely valuable for understanding the structure of conversations and how to measure the various aspects of speech.
+      - content: Such interesting content that was made consumable and relevant to actual projects I have starting up.
 ---
 ## The Challenge
 

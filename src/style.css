@@ -402,6 +402,7 @@ input:checked + svg {
 }
 
 .fade-move-in {
+  opacity: 0;
   animation-name: fadeMoveIn;
   animation-duration: .8s;
   animation-iteration-count: 1;
