@@ -3,7 +3,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: 'images/'
+# media_folder: 'images/'
 site_url: https://melaniepolkosky.com
 media_library:
   name: cloudinary
@@ -11,9 +11,9 @@ media_library:
   config:
     cloud_name: mckvr
     api_key: 146799337454777
-    default_transformations:
-              -   - fetch_format: auto
-                    quality: auto
+    # default_transformations:
+    #           -   - fetch_format: auto
+    #                 quality: auto
 
 collections:
   - name: 'portfolio'
