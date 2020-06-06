@@ -1,7 +1,6 @@
 <div class="mb-12">
     <label class="block text-lg text-gray-700 font-medium mb-2" for="name">{{include.label}}</label>
     <div class="form-group relative">
-        <textarea class="input-base block appearance-none text-lg text-black leading-normal border border-offBlack p-3 relative z-10 w-full focus:outline-none placeholder-gray-700 transform transition-all duration-200 hover:translate-x-1 hover:-translate-y-1" id="{{include.id}}" rows="4" name="{{include.id}}" {% if include.required == 'true' %} required {% endif %} placeholder="{{include.placeholder}}" aria-label="{{include.label}}"></textarea>
+        <textarea class="input-base block appearance-none text-lg text-black leading-normal border border-gray-500 p-3 relative z-10 w-full focus:outline-none placeholder-gray-700 transform transition-all duration-200 hover:translate-x-1 hover:-translate-y-1 focus:translate-x-1 focus:-translate-y-1" id="{{include.id}}" rows="4" name="{{include.id}}" {% if include.required == 'true' %} required {% endif %} placeholder="{{include.placeholder}}" aria-label="{{include.label}}"></textarea>
     </div>
-
 </div>

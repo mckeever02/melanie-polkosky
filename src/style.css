@@ -390,11 +390,15 @@ p a:hover {
 
 .form-group:before {
     content: "";
-    @apply absolute w-full h-full border border-offBlack bg-white top-0 left-0;
+    @apply absolute w-full h-full border border-gray-500 bg-white top-0 left-0;
 }
 
 .form-group:focus-within::before {
   @apply bg-lightAquamarine;
+}
+
+input:checked + svg {
+  display: block;
 }
 
 .fade-move-in {

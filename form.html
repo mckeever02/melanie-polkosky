@@ -14,22 +14,29 @@ permalink: /coaching-agreement/
 </div>
 
 
-    <form class="text-xl max-w-3xl mx-auto bg-white px-12 pt-12 lg:px-16 lg:pt-16 pb-12" action="#">
+    <form name="coaching-agreement" netlify class="text-xl max-w-3xl mx-auto bg-white px-12 pt-12 lg:px-16 lg:pt-16 pb-12" action="#">
         <h2 class="font-display text-offBlack text-3xl md:text-4xl mb-2">Please fill out the form below.</h2>
         <div class="h-1 bg-aquamarine w-16 mb-12"></div>
         {% include input.html label="Your Name" type="text" id="name" required="true" placeholder="Enter your full name" %}
 
         {% include textarea.html label="Mailing address" id="address" required="true" placeholder="" %}
 
-        {% include input.html label="Preferred Phone" type="text" id="phone" required="true" placeholder="Your preferred mobile or telephone number" %}
+        {% include input.html label="Preferred Phone Number" type="text" id="phone" required="true" placeholder="Your preferred mobile or telephone number" %}
 
         {% include input.html label="Preferred Email" type="email" id="email" required="true" placeholder="Your preferred email address" %}
 
         {% include input.html label="Name of Employer and Position" type="text" id="employer_position" required="true" placeholder="Your current employer and what your job position is" %}
 
-        {% include textarea.html label="Names and Ages of Partner/Spouse, Children and other significant individuals in your life you’d like me to be aware of" id="awarenesses" required="true" placeholder="" %}
+        {% include textarea.html label="Names and Ages of Partner/Spouse, Children and other significant individuals in your life you’d like me to be aware of" id="awarenesses" placeholder="" %}
 
-        {% include textarea.html label="What is your goal for coaching? Why is this important to you?" id="goals" required="true" placeholder="" %}
+        {% include textarea.html label="What is your goal for coaching? Why is this important to you?" id="goals" placeholder="" %}
+
+        <div class="mb-12">
+            <label class="flex justify-start items-start">
+                  <input type="checkbox" required class="rounded-none w-7 h-7 mr-2">
+                <div class="select-none text-lg text-gray-700 font-medium">I have read the Policy Statement and understand my rights and responsibilities as a Client.</div>
+              </label>
+        </div>
 
         <button class="font-display font-bold bg-darkGreen px-5 relative no-underline text-white text-2xl w-full block py-5 transition-all transform duration-200 hover:bg-darkerGreen" type="submit">Submit</button>
 
