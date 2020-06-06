@@ -61,6 +61,7 @@ collections:
           config:
             multiple: false
             crop: scale
+            width: auto
   - name: 'pages'
     label: 'Pages'
     editor:
