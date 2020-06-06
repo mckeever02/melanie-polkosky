@@ -14,7 +14,7 @@ permalink: /coaching-agreement/
 </div>
 
 
-    <form name="coaching-agreement" netlify class="text-xl max-w-3xl mx-auto bg-white px-12 pt-12 lg:px-16 lg:pt-16 pb-12" action="#">
+    <form name="Coaching Agreement" class="text-xl max-w-3xl mx-auto bg-white px-12 pt-12 lg:px-16 lg:pt-16 pb-12" method="POST" netlify-honeypot="bot-field" data-netlify="true">
         <h2 class="font-display text-offBlack text-3xl md:text-4xl mb-2">Please fill out the form below.</h2>
         <div class="h-1 bg-aquamarine w-16 mb-12"></div>
         {% include input.html label="Your Name" type="text" id="name" required="true" placeholder="Enter your full name" %}
@@ -37,6 +37,10 @@ permalink: /coaching-agreement/
                 <div class="select-none text-lg text-gray-700 font-medium">I have read the Policy Statement and understand my rights and responsibilities as a Client.</div>
               </label>
         </div>
+
+        <p class="hidden">
+            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+          </p>
 
         <button class="font-display font-bold bg-darkGreen px-5 relative no-underline text-white text-2xl w-full block py-5 transition-all transform duration-200 hover:bg-darkerGreen" type="submit">Submit</button>
 
