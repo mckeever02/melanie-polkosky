@@ -1,7 +1,6 @@
 ---
 title: "September in Al Ain: A Month in the United Arab Emirates with IBM’s Corporate Service Corps"
 image: uae-skyline
-type: .jpg
 publication: Blog
 time: 2013
 date: 19/05/2020

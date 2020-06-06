@@ -1,7 +1,6 @@
 ---
 title: "21 Days in Belfast: Muffins in the Freezer, Daddy’s in Charge and a Smarter Cities Challenge"
 image: belfast-city-hall
-type: .jpg
 publication: Blog
 time: 2013
 date: 20/05/2020

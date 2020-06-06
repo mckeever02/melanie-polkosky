@@ -43,11 +43,11 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'writing' }
       - { label: 'Title', name: 'title', widget: 'string', required: true  }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', hint: 'The date used for sorting. Leave set to Now to display as most recent' }
+      - { label: 'Sorting Date', name: 'date', widget: 'datetime', hint: 'The date used for sorting. Leave set to Now to display as most recent' }
       - { label: 'Publication Date', name: 'time', widget: 'string', hint: 'The displayed date for the article e.g. Apr 2020' }
       - { label: 'Excerpt ', name: 'excerpt', widget: 'text', required: true, hint: 'The article excerpt to be displayed. Try to keep it short and sweet.' }
       - { label: 'Publication', name: 'publication', widget: 'string', required: true, hint: 'Where the article was published e.g. Silicon Republic'  }
-      - { label: 'URL', name: 'url', widget: 'string', required: true, hint: 'The URL to the article'  }
+      - { label: 'URL', name: 'link', widget: 'string', required: true, hint: 'The URL to the article'  }
       - label: "Featured Image"
         name: "image"
         widget: "image"

@@ -11,7 +11,7 @@ permalink: /writing/
 <div class="mt-6 sm:mt-16 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-5xl">
     {% assign writing = (site.writing | sort: 'date') | reverse %}
     {%for item in writing %}
-    <a href="{{item.url}}" target="_blank" rel="noopener noreferrer" class="portfolio-item article-item relative text-white">
+    <a href="{{item.link}}" target="_blank" rel="noopener noreferrer" class="portfolio-item article-item relative text-white">
         <div class="absolute top-0 left-0 w-full h-full bg-darkGreen border z-1 portfolio-item-accent"></div>
         <div class="portfolio-item-box border bg-darkGreen relative z-2 overflow-hidden h-full">
             <div class="relative">
