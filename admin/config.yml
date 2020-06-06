@@ -10,6 +10,9 @@ media_library:
   config:
     cloud_name: mckvr
     api_key: 146799337454777
+    default_transformations:
+              -   - fetch_format: auto
+                    quality: auto
 
 collections:
   - name: 'portfolio'
@@ -61,7 +64,7 @@ collections:
           config:
             multiple: false
             crop: scale
-            width: auto
+            width: 550
   - name: 'pages'
     label: 'Pages'
     editor:
