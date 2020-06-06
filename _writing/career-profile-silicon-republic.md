@@ -7,5 +7,5 @@ excerpt: Psychologist Dr Melanie Polkosky, who is senior VP of customer
 publication: Silicon Republic
 url: https://www.siliconrepublic.com/people/melanie-polkosky-sweepr
 link: https://www.siliconrepublic.com/people/melanie-polkosky-sweepr
-image: /images/silicon-republic-melanie2_2x_qrofh2.jpg
+image: /adobestock-294978260_ckrkyb.jpg
 ---
