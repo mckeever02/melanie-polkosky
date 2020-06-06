@@ -61,7 +61,6 @@ collections:
         widget: "image"
         hint: 'Please size to 1100px by 620px'
         media_library:
-          name: mckvr
           output_filename_only: true
           config:
             multiple: false
