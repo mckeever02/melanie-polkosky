@@ -62,6 +62,7 @@ collections:
         hint: 'Please size to 1100px by 620px'
         media_library:
           config:
+            output_filename_only: true
             multiple: false
             crop: scale
             width: 550
