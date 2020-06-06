@@ -53,7 +53,10 @@ collections:
         widget: "image"
         hint: 'Please size to 1100px by 620px'
         media_library:
+          name: cloudinary
           config:
+            cloud_name: mckvr
+            api_key: 146799337454777
             multiple: false
   - name: 'pages'
     label: 'Pages'
