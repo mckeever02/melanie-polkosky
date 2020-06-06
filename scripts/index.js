@@ -320,6 +320,5 @@ if (document.querySelector('.image-glide')) {
     imageGlide.mount()
 }
 
-var cl = cloudinary.Cloudinary.new({cloud_name: "demo"});
-    // replace 'demo' with your cloud name in the line above
-    cl.responsive();
+var cl = cloudinary.Cloudinary.new({cloud_name: "mckvr"});
+cl.responsive();
