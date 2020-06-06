@@ -6,5 +6,6 @@ excerpt: Psychologist Dr Melanie Polkosky, who is senior VP of customer
   experience at Sweepr, reflects on her career path to date.
 publication: Silicon Republic
 url: https://www.siliconrepublic.com/people/melanie-polkosky-sweepr
-image: /images/silicon-republic-melanie2.jpg
+link: https://www.siliconrepublic.com/people/melanie-polkosky-sweepr
+image: https://res.cloudinary.com/mckvr/image/upload/v1591447947/silicon-republic-melanie2_2x_qrofh2.jpg
 ---
