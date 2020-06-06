@@ -54,7 +54,7 @@ collections:
         hint: 'Please size to 1100px by 620px'
         media_library:
           config:
-            multiple: true
+            multiple: false
   - name: 'pages'
     label: 'Pages'
     editor:
