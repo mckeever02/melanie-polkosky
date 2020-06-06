@@ -5,6 +5,11 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'images/'
 site_url: https://melaniepolkosky.com
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: mckvr
+    api_key: 146799337454777
 
 collections:
   - name: 'portfolio'
@@ -53,11 +58,9 @@ collections:
         widget: "image"
         hint: 'Please size to 1100px by 620px'
         media_library:
-          name: cloudinary
           config:
-            cloud_name: mckvr
-            api_key: 146799337454777
             multiple: false
+            crop: scale
   - name: 'pages'
     label: 'Pages'
     editor:
