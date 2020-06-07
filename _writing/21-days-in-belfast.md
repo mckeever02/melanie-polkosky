@@ -10,6 +10,6 @@ excerpt: After 3 weeks of working 10-15 hour days and meeting with literally
   for all residents.
 publication: Blog
 link: http://polkosky.blogspot.com
-image: /belfast-city-hall-lg_gdu0kg.jpg
+image: /sample.jpg
 url: http://polkosky.blogspot.com
 ---
