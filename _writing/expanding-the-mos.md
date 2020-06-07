@@ -10,5 +10,6 @@ excerpt: Our initial experiments documented the reliability, validity,
   the MOS-Revised (MOS-R).
 publication: International Journal of Speech Technology
 url: https://www.researchgate.net/publication/226484546_Expanding_the_MOS_Development_and_psychometric_evaluation_of_the_MOS-R_and_MOS-X
-image: /images/speech-journal@2x.jpg
+link: https://www.researchgate.net/publication/226484546_Expanding_the_MOS_Development_and_psychometric_evaluation_of_the_MOS-R_and_MOS-X
+image: /speech-journal_2x_pn8r4l.jpg
 ---
