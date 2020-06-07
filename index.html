@@ -91,7 +91,7 @@ timeline:
     <div class="grid lg:grid-cols-2 lg:gap-12">
         <h3 class="section-heading">Articles, Talks & Interviews</h3>
         <div class="relative flex flex-col">
-            {% for item in site.data.talks_interviews %}
+            {% for item in site.data.talks_interviews.items %}
                 {% include talk-item.html %}
             {% endfor %}
             <a class="link-serif link-arrow text-lg mt-16 inline-block" href="/writing">See more of my writing <span>➞</span></a>
