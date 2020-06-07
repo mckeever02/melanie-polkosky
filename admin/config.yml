@@ -99,7 +99,6 @@ collections:
               - { label: 'Quote', name: 'timeline_item_quote', widget: 'string', required: true }
           - label: "Links Section"
             name: "talks_interviews"
-            file: "_data/talks_interviews.yml"
             widget: "list"
             fields:
               - { label: 'Publication', name: 'title', widget: 'string', required: true, hint: "e.g. Silicon Republic" }
@@ -107,7 +106,6 @@ collections:
               - { label: 'Date', name: 'date', widget: 'string', required: true, "e.g. Apr 2020" }
           - label: "Social Section"
             name: "social"
-            file: "_data/social.yml"
             widget: "list"
             fields:
               - { label: 'Name', name: 'name', widget: 'string', required: true }
