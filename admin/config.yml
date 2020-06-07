@@ -7,7 +7,6 @@ backend:
 site_url: https://melaniepolkosky.com
 media_library:
   name: cloudinary
-  output_filename_only: false
   config:
     cloud_name: mckvr
     api_key: 146799337454777
@@ -67,7 +66,6 @@ collections:
         hint: 'Please size to 1100px by 620px'
         media_library:
           name: cloudinary
-          output_filename_only: false
           config:
             multiple: false
             default_transformations:
