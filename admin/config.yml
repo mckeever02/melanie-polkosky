@@ -7,13 +7,17 @@ backend:
 site_url: https://melaniepolkosky.com
 media_library:
   name: cloudinary
-  output_filename_only: true
+  output_filename_only: false
   config:
     cloud_name: mckvr
     api_key: 146799337454777
-    # default_transformations:
-    #           -   - fetch_format: auto
-    #                 quality: auto
+    default_transformations:
+              -   - fetch_format: auto
+                    quality: auto
+                    width: 550
+                    height: 320
+                    crop: scale
+                    dpr: auto
 
 collections:
   - name: 'portfolio'
@@ -63,11 +67,16 @@ collections:
         hint: 'Please size to 1100px by 620px'
         media_library:
           name: cloudinary
-          output_filename_only: true
+          output_filename_only: false
           config:
             multiple: false
-            crop: scale
-            width: 550
+            default_transformations:
+              -   - fetch_format: auto
+                    quality: auto
+                    width: 550
+                    height: 320
+                    crop: scale
+                    dpr: auto
   - name: 'pages'
     label: 'Pages'
     editor:
