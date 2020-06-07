@@ -103,7 +103,8 @@ collections:
             fields:
               - { label: 'Publication', name: 'title', widget: 'string', required: true, hint: "e.g. Silicon Republic" }
               - { label: 'Title', name: 'description', widget: 'string', required: true, hint: "e.g. Career Profile in Silicon Republic" }
-              - { label: 'Date', name: 'date', widget: 'string', required: true, "e.g. Apr 2020" }
+              - { label: 'URL', name: 'link', widget: 'string', required: true }
+              - { label: 'Date', name: 'date', widget: 'string', required: true, hint: "e.g. Apr 2020" }
           - label: "Social Section"
             name: "social"
             widget: "list"
