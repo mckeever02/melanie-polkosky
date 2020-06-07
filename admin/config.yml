@@ -71,8 +71,8 @@ collections:
             default_transformations:
               -   - fetch_format: auto
                     quality: auto
-                    width: 550
-                    height: 320
+                    width: 1100
+                    height: 640
                     crop: scale
                     dpr: auto
   - name: 'pages'
