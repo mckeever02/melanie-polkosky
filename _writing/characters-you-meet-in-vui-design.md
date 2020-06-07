@@ -8,5 +8,6 @@ excerpt: " Project after project, were running into the same people, all with
   Creating a VUI design is only the beginning of our work."
 publication: Speech Technology Magazine
 url: https://www.speechtechmag.com/Articles/Archives/The-Human-Factor/The-Characters-You-Meet-in-VUI-Design-37408.aspx
-image: /images/vui-characters@2x.jpg
+link: https://www.speechtechmag.com/Articles/Archives/The-Human-Factor/The-Characters-You-Meet-in-VUI-Design-37408.aspx
+image: /vui-characters_2x_exearz.jpg
 ---

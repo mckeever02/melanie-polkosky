@@ -7,5 +7,6 @@ excerpt: One of the major value propositions of Sweepr’s intelligent
   users.
 publication: The Quick Sweep
 url: https://sweepr.com/blog/20191220-must-use-customer-self-service
-image: /images/how-to-design-self-service@2x.png
+link: https://sweepr.com/blog/20191220-must-use-customer-self-service
+image: /how-to-design-self-service_2x_b4ugvy.png
 ---

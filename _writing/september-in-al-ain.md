@@ -1,7 +1,6 @@
 ---
 title: "September in Al Ain: A Month in the United Arab Emirates with IBM’s
   Corporate Service Corps"
-image: /images/uae-skyline@2x.jpg
 date: 2020-05-18T23:00:00.000Z
 time: 2013
 excerpt: I quickly marched through the introduction to our project, method and
@@ -9,5 +8,7 @@ excerpt: I quickly marched through the introduction to our project, method and
   the Municipality.  As I talked, the senior Emirati nodded occasionally with a
   relaxed face as he listened, his dark eyes intense.
 publication: Blog
+link: http://polkosky.blogspot.com
+image: /uae-skyline_2x_mz6b7g.jpg
 url: http://polkosky.blogspot.com
 ---

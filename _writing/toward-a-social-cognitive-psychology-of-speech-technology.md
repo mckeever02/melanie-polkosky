@@ -12,5 +12,6 @@ excerpt: Using a theoretical foundation derived from research in social
   satisfaction).
 publication: Dissertation, Department of Psychology, University of South Florida
 url: https://scholarcommons.usf.edu/etd/819/
-image: /images/dept-psychology@2x.jpg
+link: https://scholarcommons.usf.edu/etd/819/
+image: /dept-psychology_2x_hevtj3.jpg
 ---
