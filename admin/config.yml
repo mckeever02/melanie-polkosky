@@ -94,11 +94,11 @@ collections:
           - { label: 'Column 2', name: 'intro_column_2', widget: 'text', required: true }
           - label: "Timeline Section"
             name: "timeline"
-            widget: "object"
+            widget: "list"
             fields:
               - { label: 'Date', name: 'timeline_item_date', widget: 'string', required: true }
-              - { label: 'Title', name: 'title', widget: 'string', required: true }
-              - { label: 'Quote', name: 'quote', widget: 'string', required: true }
+              - { label: 'Title', name: 'timeline_item_title', widget: 'string', required: true }
+              - { label: 'Quote', name: 'timeline_item_quote', widget: 'string', required: true }
 
       - label: 'About Page'
         name: 'about'
