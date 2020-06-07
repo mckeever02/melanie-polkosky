@@ -105,7 +105,7 @@ timeline:
     <div class="grid lg:grid-cols-2 lg:gap-12">
         <h3 class="section-heading">Where you can find me</h3>
         <ul class="flex flex-col list-none">
-            {% for item in site.data.social %}
+            {% for item in site.data.social.items %}
                 {% include social-item.html %}
             {% endfor %}
         </ul>
