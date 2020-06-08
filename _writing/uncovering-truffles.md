@@ -12,5 +12,5 @@ excerpt: "Women in Science, Technology, Engineering and Match (STEM) are much
 publication: Book
 url: https://www.amazon.com/dp/B010J38CZW
 link: https://www.amazon.com/dp/B010J38CZW
-image: /uncovering-truffles_2x_on12ou.jpg
+image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_640,q_auto,w_1100/v1591540683/uncovering-truffles_2x_on12ou.jpg
 ---
