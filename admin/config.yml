@@ -84,7 +84,7 @@ collections:
         name: 'section_1'
         file: 'about-section-1.md'
         fields:
-          - { label: 'Content', name: 'section_1_content', widget: 'text', required: true }
+          - { label: 'Content', name: 'body', widget: 'markdown'}
   - name: 'pages'
     label: 'Pages'
     editor:
