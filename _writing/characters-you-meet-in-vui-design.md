@@ -9,5 +9,5 @@ excerpt: " Project after project, were running into the same people, all with
 publication: Speech Technology Magazine
 url: https://www.speechtechmag.com/Articles/Archives/The-Human-Factor/The-Characters-You-Meet-in-VUI-Design-37408.aspx
 link: https://www.speechtechmag.com/Articles/Archives/The-Human-Factor/The-Characters-You-Meet-in-VUI-Design-37408.aspx
-image: /vui-characters_2x_exearz.jpg
+image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_320,q_auto,w_550/v1591540686/vui-characters_2x_exearz.jpg
 ---
