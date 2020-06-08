@@ -30,7 +30,8 @@ section_1_content: >-
 </div>
 
 <div class="mt-6 max-w-2xl mx-auto text-lg lg:text-xl longform-text">
-    {% capture section_1_content %}{% include_relative about_section_1.md %}{% endcapture %}
+    {% capture section_1_content %}{% include_relative about
+    -section-1.md %}{% endcapture %}
     {{ section_1_content | markdownify }}
 </div>
 
