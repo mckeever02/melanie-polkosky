@@ -8,5 +8,5 @@ excerpt: One of the major value propositions of Sweepr’s intelligent
 publication: The Quick Sweep
 url: https://sweepr.com/blog/20191220-must-use-customer-self-service
 link: https://sweepr.com/blog/20191220-must-use-customer-self-service
-image: /how-to-design-self-service_2x_b4ugvy.png
+image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_640,q_auto,w_1100/v1591540815/how-to-design-self-service_2x_b4ugvy.png
 ---

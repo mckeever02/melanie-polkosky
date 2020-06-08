@@ -11,5 +11,5 @@ excerpt: Our initial experiments documented the reliability, validity,
 publication: International Journal of Speech Technology
 url: https://www.researchgate.net/publication/226484546_Expanding_the_MOS_Development_and_psychometric_evaluation_of_the_MOS-R_and_MOS-X
 link: https://www.researchgate.net/publication/226484546_Expanding_the_MOS_Development_and_psychometric_evaluation_of_the_MOS-R_and_MOS-X
-image: /speech-journal_2x_pn8r4l.jpg
+image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_640,q_auto,w_1100/v1591540673/dept-psychology_2x_hevtj3.jpg
 ---
