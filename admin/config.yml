@@ -75,6 +75,16 @@ collections:
                     height: 640
                     crop: scale
                     dpr: auto
+  - name: 'about_page'
+    label: 'About Page'
+    editor:
+      preview: true
+    files:
+      - label: 'Section 1'
+        name: 'section_1'
+        file: 'about-section-1.md'
+        fields:
+          - { label: 'Content', name: 'section_1_content', widget: 'text', required: true }
   - name: 'pages'
     label: 'Pages'
     editor:
