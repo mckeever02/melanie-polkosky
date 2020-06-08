@@ -1,6 +1,5 @@
 ---
-title: "21 Days in Belfast: Muffins in the Freezer, Daddy’s in Charge and a
-  Smarter Cities Challenge"
+title: "21 Days in Belfast: IBM Smarter Cities Challenge"
 date: 2020-05-19T23:00:00.000Z
 time: 2013
 excerpt: After 3 weeks of working 10-15 hour days and meeting with literally
