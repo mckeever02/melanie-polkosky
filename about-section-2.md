@@ -1,19 +1,3 @@
----
-section_2_body: >-
-  My management roles have included Director of Research and Business Analytics
-  at [Motivate Design](http://w.motivatedesign.com/), where I designed and
-  executed UX research programs and workshops for First Republic Bank,
-  Chick-Fil-A, Cox, National Institutes of Health, PayPal and Penn State
-  University. I’m currently the Senior Vice President of Customer Experience at
-  [Sweepr](https://sweepr.com) a Dublin-based technology startup, where UX
-  thought leadership is core to our business strategy.
-
-
-  My career highlights include a Provost’s Commendation for Outstanding Teaching by a Graduate Student (University of South Florida), as well as publication of over 60 articles and 6 U.S. patents. I was on the founding board of the Association for Voice Interaction Design (AVIxD). In 2015, I wrote [Uncovering Truffles: The Scarcity and Value of Women in STEM](https://www.amazon.co.uk/Uncovering-Truffles-Scarcity-Value-Women/dp/1515304280/ref=sr_1_1?keywords=uncovering+truffles&qid=1585251895&sr=8-1) about the experiences of women in male-dominated fields. That same year, I completed my first professional coaching certification, followed by Associate Certified Coach credential from the International Coaching Federation in 2018. My coaching practice serves creatives, UXers and professional women and I’m on the Professional Development Chair of the Gulf Coast ICF chapter.
-
-
-  But my most important roles are partner to my husband of nearly 30 years and mom to a tween boy and girl, plus one very friendly Labradoodle. If I’m not working, coaching or mothering, you’ll find me reading, traveling, working on my latest writing project or learning something new.
----
 My management roles have included Director of Research and Business Analytics at [Motivate Design](http://w.motivatedesign.com/), where I designed and executed UX research programs and workshops for First Republic Bank, Chick-Fil-A, Cox, National Institutes of Health, PayPal and Penn State University. I’m currently the Senior Vice President of Customer Experience at [Sweepr](https://sweepr.com) a Dublin-based technology startup, where UX thought leadership is core to our business strategy.
 
 My career highlights include a Provost’s Commendation for Outstanding Teaching by a Graduate Student (University of South Florida), as well as publication of over 60 articles and 6 U.S. patents. I was on the founding board of the Association for Voice Interaction Design (AVIxD). In 2015, I wrote [Uncovering Truffles: The Scarcity and Value of Women in STEM](https://www.amazon.co.uk/Uncovering-Truffles-Scarcity-Value-Women/dp/1515304280/ref=sr_1_1?keywords=uncovering+truffles&qid=1585251895&sr=8-1) about the experiences of women in male-dominated fields. That same year, I completed my first professional coaching certification, followed by Associate Certified Coach credential from the International Coaching Federation in 2018. My coaching practice serves creatives, UXers and professional women and I’m on the Professional Development Chair of the Gulf Coast ICF chapter.
