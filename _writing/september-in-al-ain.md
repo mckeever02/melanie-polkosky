@@ -9,6 +9,6 @@ excerpt: I quickly marched through the introduction to our project, method and
   relaxed face as he listened, his dark eyes intense.
 publication: Blog
 link: http://polkosky.blogspot.com
-image: /uae-skyline_2x_mz6b7g.jpg
+image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_640,q_auto,w_1100/v1591540680/uae-skyline_2x_mz6b7g.jpg
 url: http://polkosky.blogspot.com
 ---
