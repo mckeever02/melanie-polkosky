@@ -25,7 +25,9 @@ redirect_from:
 {% include hero.html %}
 
 <div class="mt-6 md:mt-16 max-w-2xl mx-auto md:text-lg lg:text-xl longform-text">
-    <h2 class="longform-title">What is coaching?</h2>
+    {% capture section_1_content %}{% include_relative coaching-section-1.md %}{% endcapture %}
+    {{ section_1_content | markdownify }}
+    <!-- <h2 class="longform-title">What is coaching?</h2>
     <p>The International Coaching Federation (ICF) defines coaching as “partnering with Clients in a thought-provoking and
     creative process that inspires them to maximize their personal and professional potential.”</p>
 
@@ -36,7 +38,7 @@ redirect_from:
 
     <!-- <img class="max-w-3xs mx-auto mb-8" src="/images/associate-certified-coach-acc.png" alt="Associate Certified Coach Badge"> -->
 
-    <p>As an Associate Certified Coach (ACC), I adhere to the ICF’s <a href="https://coachfederation.org/code-of-ethics">Code of Ethics</a> and <a href="https://coachfederation.org/core-competencies">Core Competencies</a>. ICF credentials are the international gold standard in coaching preparation. The ACC indicates I completed an accredited coaching program, completed over 100 Client coaching hours and passed an exam at the time it was awarded. I’m currently working toward the Professional Certified Coach (PCC) credential.</p>
+    <!-- <p>As an Associate Certified Coach (ACC), I adhere to the ICF’s <a href="https://coachfederation.org/code-of-ethics">Code of Ethics</a> and <a href="https://coachfederation.org/core-competencies">Core Competencies</a>. ICF credentials are the international gold standard in coaching preparation. The ACC indicates I completed an accredited coaching program, completed over 100 Client coaching hours and passed an exam at the time it was awarded. I’m currently working toward the Professional Certified Coach (PCC) credential.</p>
 
     {% include blockquote.html quote="Coaching is a thought-provoking and creative process that inspires client’s maximum potential." %}
 
@@ -49,9 +51,9 @@ redirect_from:
 
     <p>Other clients coach with me for a very different reason: because I’m a cognitive psychologist and former clinical speech-language pathologist, I have broad knowledge of various disabilities. I’ve coached a variety of caregivers of family members with special needs, supporting them through the most challenging role of their lives.</p>
 
-    <p>Regardless of what brings them to the process, what all coaching clients have in common is a small voice telling them things don’t have to be this way. There must be something better.</p>
+    <p>Regardless of what brings them to the process, what all coaching clients have in common is a small voice telling them things don’t have to be this way. There must be something better.</p> -->
 
-    <p>And there it is. It just takes one step.</p>
+    <!-- <p>And there it is. It just takes one step.</p> -->
 
     <div class="flex flex-col text-center mt-16">
         <img class="max-w-xs w-56 mx-auto" src="/images/icf-logo.svg" alt="ICF logo">
