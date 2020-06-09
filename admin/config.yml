@@ -123,6 +123,7 @@ collections:
         file: 'coaching-section-1.md'
         fields:
           - { label: 'Content', name: 'body', widget: 'markdown'}
+    collections:
       - label: 'Testimonials'
         name: 'testimonails'
         folder: '_testimonials/'
