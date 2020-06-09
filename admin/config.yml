@@ -111,7 +111,7 @@ collections:
         fields:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
           - { label: 'Page Title', name: 'title', widget: 'string', default: 'Coaching' }
-          - { label: 'Page Description', name: 'description', widget: 'string', 'default: 'ICF-certified professional career, life & executive coach.' }
+          - { label: 'Page Description', name: 'description', widget: 'string', default: 'ICF-certified professional career, life & executive coach.' }
           - { label: 'Callout 1 Title', name: 'callout_1_title', widget: 'string', default: 'Download my free coaching packet' }
           - { label: 'Callout 1 Description', name: 'callout_1_description', widget: 'string', default: 'Download my introductory coaching packet to learn more about what I can do for you.' }
           - { label: 'Callout 1 Link', name: 'callout_1_link', widget: 'string' }
