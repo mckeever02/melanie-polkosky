@@ -123,11 +123,15 @@ collections:
         file: 'coaching-section-1.md'
         fields:
           - { label: 'Content', name: 'body', widget: 'markdown'}
-      - label: 'Section 2'
-        name: 'section_2'
-        file: 'about-section-2.md'
+      - label: 'Testimonials'
+        name: 'testimonails'
+        folder: '_testimonials/'
+        create: true
+        editor:
+          preview: false
         fields:
-          - { label: 'Content', name: 'body', widget: 'markdown'}
+          - { label: 'Title', name: 'title', widget: 'string', required: true  }
+          - { label: 'Content', name: 'body', widget: 'markdown', required: true }
   - name: 'pages'
     label: 'Pages'
     editor:
