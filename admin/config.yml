@@ -81,13 +81,12 @@ collections:
       preview: false
     files:
       - label: 'Content'
-        name: 'about_content'
-        file: 'about.html'
-        fields:
-          - { label: 'Page Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-          - { label: 'Page Description', name: 'description', widget: 'string' }
-    files:
+          name: 'about_content'
+          file: 'about.html'
+          fields:
+            - { label: 'Page Title', name: 'title', widget: 'hidden', default: 'about' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+            - { label: 'Page Description', name: 'description', widget: 'string' }
       - label: 'Section 1'
         name: 'section_1'
         file: 'about-section-1.md'
