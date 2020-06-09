@@ -84,9 +84,12 @@ collections:
         name: 'about_content'
         file: 'about.html'
         fields:
-          - { label: 'Page Title', name: 'title', widget: 'hidden', default: 'about' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+          - { label: 'Page Title', name: 'title', widget: 'string', default: 'About me' }
           - { label: 'Page Description', name: 'description', widget: 'string' }
+          - { label: 'Callout Title', name: 'callout_title', widget: 'string', default: 'Did you know?' }
+          - { label: 'Callout Description', name: 'callout_title', widget: 'string', default: 'Been there, wrote a book on being a woman in STEM' }
+          - { label: 'Callout Link', name: 'callout_link', widget: 'string', default: 'https://www.amazon.co.uk/Uncovering-Truffles-Scarcity-Value-Women/dp/1515304280/ref=sr_1_1?keywords=uncovering+truffles&qid=1585251895&sr=8-1' }
       - label: 'Section 1'
         name: 'section_1'
         file: 'about-section-1.md'
