@@ -124,29 +124,29 @@ collections:
         fields:
           - { label: 'Content', name: 'body', widget: 'markdown'}
   - label: 'Testimonials'
-        name: 'testimonails'
-        folder: '_testimonials/'
-        create: true
-        editor:
-          preview: false
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string', required: true  }
-          - label: "Featured Image"
-            name: "image"
-            widget: "image"
-            hint: 'Upload an image at least 1100px wide and 640px tall'
-            media_library:
-              name: cloudinary
-              config:
-                multiple: false
-                default_transformations:
-                  -   - fetch_format: auto
-                        quality: auto
-                        width: 480
-                        height: 600
-                        crop: scale
-                        dpr: auto
-          - { label: 'Content', name: 'body', widget: 'markdown', required: true }
+    name: 'testimonails'
+    folder: '_testimonials/'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', required: true  }
+      - { label: 'Content', name: 'body', widget: 'markdown', required: true }
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        hint: 'Upload an image at least 1100px wide and 640px tall'
+        media_library:
+          name: cloudinary
+          config:
+            multiple: false
+            default_transformations:
+              -   - fetch_format: auto
+                    quality: auto
+                    width: 480
+                    height: 600
+                    crop: scale
+                    dpr: auto
   - name: 'pages'
     label: 'Pages'
     editor:
