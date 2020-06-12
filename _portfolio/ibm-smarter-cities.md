@@ -26,7 +26,7 @@ testimonials:
       about the ‘Melanie Measures’! Seriously though… you made a big impact and
       it’s something we can really deliver on.
 ---
-![Belfast City Hall](https://res.cloudinary.com/mckvr/image/upload/t_article_2x/c_fill,dpr_auto,f_auto,q_auto,w_1000/v1591540668/belfast-city-hall-lg_gdu0kg.jpg) 
+![Belfast City Hall](https://res.cloudinary.com/mckvr/image/upload/t_article_2x/c_fill,dpr_auto/v1591540668/belfast-city-hall-lg_gdu0kg.jpg) 
 {: .longform-img}
 
 ## The Challenge
