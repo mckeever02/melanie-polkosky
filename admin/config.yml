@@ -11,12 +11,13 @@ media_library:
     cloud_name: mckvr
     api_key: 146799337454777
     default_transformations:
-              -   - fetch_format: auto
-                    quality: auto
-                    width: 1100
-                    height: 640
-                    crop: fill
-                    dpr: auto
+      - - fetch_format: auto
+          quality: auto
+          width: 1100
+          height: 640
+          crop: fill
+          dpr: auto
+
 
 collections:
   - name: 'portfolio'
@@ -69,12 +70,12 @@ collections:
           config:
             multiple: false
             default_transformations:
-              -   - fetch_format: auto
-                    quality: auto
-                    width: 1100
-                    height: 640
-                    crop: fill
-                    dpr: auto
+              - - fetch_format: auto
+                  quality: auto
+                  width: 1100
+                  height: 640
+                  crop: fill
+                  dpr: auto
   - name: 'about_page'
     label: 'About Page'
     editor:
@@ -143,12 +144,12 @@ collections:
           config:
             multiple: false
             default_transformations:
-              -   - fetch_format: auto
-                    quality: auto
-                    width: 480
-                    height: 600
-                    crop: scale
-                    dpr: auto
+              - - fetch_format: auto
+                  quality: auto
+                  width: 480
+                  height: 600
+                  crop: fill
+                  dpr: auto
   - name: 'pages'
     label: 'Pages'
     editor:
