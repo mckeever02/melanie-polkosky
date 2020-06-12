@@ -4,14 +4,14 @@ slides:
   - image: belfast-2.jpg
   - image: belfast-3.jpg
 animation: h-and-w
+layout: portfolio-single
 thumbnail_title: IBM Smarter Cities Challenge
 title: Metric-based funding strategy for citywide social programs.
 category: Strategy Consulting
 role: Strategy Consulting
-company: IBM
 client: Belfast City Council
-layout: portfolio-single
 thumbnail: smarter-cities-challenge
+company: IBM
 time: 2013
 date: 2020-06-12T15:20:18.951Z
 testimonials:
@@ -26,9 +26,7 @@ testimonials:
       about the ‘Melanie Measures’! Seriously though… you made a big impact and
       it’s something we can really deliver on.
 ---
-
-![Belfast City Hall](/images/belfast-city-hall-lg.jpg)
-{: .longform-img}
+![Belfast City Hall](https://res.cloudinary.com/mckvr/image/upload/t_article_2x/c_fill,dpr_auto,f_auto,q_auto,w_800/v1591540668/belfast-city-hall-lg_gdu0kg.jpg) {: .longform-img}
 
 ## The Challenge
 
@@ -40,7 +38,7 @@ As part of a team of six senior IBMers, I developed a well-being measure that co
 
 > My well-being metric was the centerpiece of IBM’s healthcare technology solution for Belfast City Council.
 
-![Melanie's presentation in Belfast City Hall](/images/melanie-presenting.jpg)
+![Melanie Polkosky presenting Belfast City Hall](https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_800/v1591981184/melanie-presenting_bnua6d.jpg)
 {: .longform-img}
 
 In the final presentation to over 250 community and political leaders, I told the story of Belfast’s ongoing divisions in a new context: that of Memphis’s troubled history of racial tension and said that a way past the emotion of history to a better society was through objective, comparative data. Today, a version of the metric I proposed has been adopted in Belfast, throughout Northern Ireland, the Republic of Ireland and proposed in the UK.
