@@ -33,9 +33,9 @@ collections:
       - { label: 'Title', name: 'thumbnail_title', widget: 'string', required: true, hint: "The title for the thumbnail e.g. IBM"  }
       - { label: 'Page Title', name: 'title', widget: 'string', required: true, hint: "e.g. Metric-based funding strategy for citywide social programs."  }
       - { label: 'Category', name: 'category', widget: 'select', required: true, options: ['Strategy Consulting', 'Training', 'UI Design', 'UX Research'] }
-      - { label: 'Role', name: 'role', widget: 'string', required: false, hint: "Optional e.g. Strategy Consulting" }
-      - { label: 'Company', name: 'company', widget: 'string', required: false, hint: "Optional e.g. IBM" }
-      - { label: 'Client', name: 'client', widget: 'string', required: false, hint: "Optional e.g. Belfast City Council" }
+      - { label: 'Role', name: 'role', widget: 'string', required: false, hint: "e.g. Strategy Consulting" }
+      - { label: 'Company', name: 'company', widget: 'string', required: false, hint: "e.g. IBM" }
+      - { label: 'Client', name: 'client', widget: 'string', required: false, hint: "e.g. Belfast City Council" }
       - { label: 'Time', name: 'time', widget: 'string', required: false, hint: "The displayed date for the case study e.g. 2020-2021" }
       - { label: 'Sorting Date', name: 'date', widget: 'datetime', hint: "The date used for sorting. Leave set to Now to display as most recent" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -52,7 +52,7 @@ collections:
         widget: "list"
         hint: "Add images with optional captions to be displayed in a slideshow"
         fields:
-          - { label: 'Caption', name: 'title', widget: 'string', required: false, hint: "Optional" }
+          - { label: 'Caption', name: 'title', widget: 'string', required: false }
           - label: "Image"
             name: "image"
             widget: "image"
@@ -65,7 +65,6 @@ collections:
                   - - fetch_format: auto
                       quality: auto
                       width: 1000
-                      height: auto
                       crop: fit
                       dpr: auto
       # - label: "Details"
