@@ -20,7 +20,7 @@ One of my first contributions to Sweepr came in the form of research that I’d 
 
 > My personas, known as Avoidant, Optimistic and Confident, are central to Sweepr’s strategy and value proposition.
 
-![Sweepr personas](https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_800/v1591981302/sweepr-personas_dtlxo9.svg)
+![Sweepr personas](https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_svg,q_auto,w_800/v1591981302/sweepr-personas_dtlxo9.svg) 
 {: .longform-img}
 
 From this initial finding, I continued to develop my understanding of the key variables that cause people to use self-service. As my UX career progressed from speech technology to include websites, mobile apps and even physical products, I continued to explore the key personality variables. By the time I joined Sweepr in 2019, I had described three clear consumer personas that applied to our self-service products.
