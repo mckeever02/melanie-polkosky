@@ -1,8 +1,8 @@
 ---
 title: Product designer
 job: Square
-image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_600,q_auto,w_480/v1591540683/uncovering-truffles_2x_on12ou.jpg
 type: Coaching
+image: https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,h_600,q_auto,w_480/v1591973883/testimonial-1_evfbgy.jpg
 ---
 I’ve been talking to Melanie for about three years and the ROI is clear — she has helped me negotiate a 40k raise at one job and 3 months of vacation at another (both of which I thought were impossible before talking to her). But the most valuable part of working with Melanie is not financial.
 
