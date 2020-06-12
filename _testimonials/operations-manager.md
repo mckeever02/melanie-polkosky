@@ -2,7 +2,7 @@
 title: Operations Manager
 job: Mayor's Office of New York City
 type: Coaching
-image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_600,q_auto,w_480/v1591540686/vui-characters_2x_exearz.jpg
+image: https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,h_600,q_auto,w_480/v1591973883/testimonial-3_n7ocgd.jpg
 ---
 I came to Melanie feeling lost about my career trajectory. I have worked in the public and nonprofit sector for over a decade and was feeling like I didn’t have much to show for the work I had done. Through Melanie’s coaching sessions, I have transformed my outlook. She helped me identify my strengths and all the skills I have acquired throughout my career path. The work I did with Melanie helped propel me to a new job. While I don’t think this job is my dream job, I am more satisfied at work and I am feeling more hopeful about the opportunities available to me.
 

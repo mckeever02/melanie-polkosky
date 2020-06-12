@@ -1,8 +1,8 @@
 ---
 title: Product Manager
 job: Tech Startup
-image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_600,q_auto,w_480/v1591540683/uncovering-truffles_2x_on12ou.jpg
 type: Coaching
+image: https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,h_600,q_auto,w_480/v1591973884/testimonial-2_xalxmb.jpg
 ---
 Working with Melanie has been wonderful!  Even after a few sessions, I have so many new tools with which to tackle my biggest challenges. I deeply appreciate her ability to provide both technical, in-the-weeds advice for growing my career AND guidance when it comes to bigger picture issues (imposter syndrome! gender bias!).
 

@@ -1,8 +1,8 @@
 ---
 title: UX Researcher
 job: Wall Street Journal
-image: https://res.cloudinary.com/mckvr/image/upload/c_scale,dpr_auto,f_auto,h_600,q_auto,w_480/v1591540683/uncovering-truffles_2x_on12ou.jpg
 type: Mentoring
+image: https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,h_600,q_auto,w_480/v1591973884/testimonial-4_vkcmum.jpg
 ---
 Two years ago, I started my career as a freelance UX designer and researcher working with Melanie; I had just come out of a UX bootcamp with little prior UX experience and only a vague idea of the direction in which I wanted to go. It became immediately apparent that I had struck gold with Melanie. She took on her given role as my supervisor and then went above and beyond by becoming my mentor, a role she holds to this day long after I left freelancing to go in-house.
 
