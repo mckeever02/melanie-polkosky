@@ -1,15 +1,15 @@
 ---
-layout: portfolio-single
-title: Evidence-based personas for product differentiation.
-thumbnail_title: Sweepr
-role: SVP Customer Experience
-category: UX Research
-company: Sweepr
-time: "2019&ndash;Present"
-thumbnail: sweepr-thumbnail
 animation: sweepr
+layout: portfolio-single
+thumbnail_title: Sweepr
+thumbnail: sweepr-thumbnail
+title: Evidence-based personas for product differentiation.
+category: UX Research
+role: SVP Customer Experience
+company: Sweepr
+time: 2019&ndash;Present
+date: 2020-06-12T17:01:08.074Z
 ---
-
 ## The Challenge
 
 Sweepr, a technology startup based in Dublin, Ireland is building a software platform that uses speech technology and artificial intelligence to provide contextually-adaptive self-service for consumers in their home. My role as Senior VP of Customer Experience is to differentiate our product through unique features that create an excellent customer experience.
@@ -20,13 +20,11 @@ One of my first contributions to Sweepr came in the form of research that I’d 
 
 > My personas, known as Avoidant, Optimistic and Confident, are central to Sweepr’s strategy and value proposition.
 
-![Sweepr Personas](/images/sweepr-personas.svg "The 3 personas")
+![Sweepr personas](https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_800/v1591981302/sweepr-personas_dtlxo9.svg)
 {: .longform-img}
 
 From this initial finding, I continued to develop my understanding of the key variables that cause people to use self-service. As my UX career progressed from speech technology to include websites, mobile apps and even physical products, I continued to explore the key personality variables. By the time I joined Sweepr in 2019, I had described three clear consumer personas that applied to our self-service products.
 
 To date, I have developed an approach to UX design and writing for self-service content development based on the three end user personas. In addition, I’ve operationalized and quantified methods for our platform to identify a user’s persona during onboarding and incrementally change their persona as they use the product. These innovations have been codified into the platform and are a central plank of Sweepr’s value proposition. Finally, I’ve designed an ongoing research program to understand the specific behavioral and attitudinal issues that differentiate the personas and feed continued product innovation.
-
-
 
 To see what I’m up to lately, please see [The Quick Sweep](https://sweepr.com/blog).
