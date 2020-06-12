@@ -2,7 +2,7 @@
 slides:
   - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591977998/cox-workshop-1_m17djl.jpg
   - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591977998/cox-workshop-3_k6s6wj.jpg
-  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591977998/cox-workshop-4_g866eb.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591977998/cox-workshop-2_td2jlb.jpg
 animation: copywriting
 layout: portfolio-single
 thumbnail_title: Cox
