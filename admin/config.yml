@@ -11,9 +11,7 @@ media_library:
     cloud_name: mckvr
     api_key: 146799337454777
     default_transformations:
-      - - fetch_format: auto
-          format: auto
-          quality: auto
+      - - quality: auto
           crop: fill
           dpr: auto
 
