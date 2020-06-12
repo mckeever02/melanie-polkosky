@@ -71,7 +71,13 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string', required: true }
           - { label: 'Description', name: 'description', widget: 'text', required: false }
-          - { label: 'Audio Link', name: 'link', widget: 'file', media_library: '/audio' }
+          - label: "Audio Link"
+            name: "link"
+            widget: "file"
+            media_library:
+              name: '/audio'
+              config:
+                multiple: false
   - name: 'writing'
     create: true
     label: 'Writing Page'
