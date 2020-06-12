@@ -29,14 +29,14 @@ collections:
     folder: '_portfolio/'
     create: true
     fields:
-      - { label: 'Title', name: 'thumbnail_title', widget: 'string', required: true,  }
-      - { label: 'Page Title', name: 'title', widget: 'string', required: true,  }
-      - { label: 'Category', name: 'category', widget: 'select', required: true, options: ['Strategy Consulting', 'Training', 'UI Design', 'UX Research'] }
-      - { label: 'Role', name: 'role', widget: 'string', required: false }
-      - { label: 'Company', name: 'company', widget: 'string', required: false }
-      - { label: 'Client', name: 'client', widget: 'string', required: false }
-      - { label: 'Time', name: 'time', widget: 'string', required: false, hint: "The displayed date for the case study e.g. 2020-2021" }
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'portfolio-single' }
+      - { label: 'Title', name: 'thumbnail_title', widget: 'string', required: true, hint: "The title for the thumbnail e.g. IBM"  }
+      - { label: 'Page Title', name: 'title', widget: 'string', required: true, hint: "e.g. Metric-based funding strategy for citywide social programs."  }
+      - { label: 'Category', name: 'category', widget: 'select', required: true, options: ['Strategy Consulting', 'Training', 'UI Design', 'UX Research'] }
+      - { label: 'Role', name: 'role', widget: 'string', required: false, hint: "Optional e.g. Strategy Consulting" }
+      - { label: 'Company', name: 'company', widget: 'string', required: false, hint: "Optional e.g. IBM" }
+      - { label: 'Client', name: 'client', widget: 'string', required: false, hint: "Optional e.g. Belfast City Council" }
+      - { label: 'Time', name: 'time', widget: 'string', required: false, hint: "The displayed date for the case study e.g. 2020-2021" }
       - { label: 'Sorting Date', name: 'date', widget: 'datetime', hint: "The date used for sorting. Leave set to Now to display as most recent" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: "Testimonial Section"
