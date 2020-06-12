@@ -1,4 +1,5 @@
 ---
+layout: portfolio-single
 thumbnail_title: IBM
 title: Metric-based funding strategy for citywide social programs.
 category: Strategy Consulting
@@ -6,8 +7,18 @@ role: Strategy Consulting
 company: IBM
 client: Belfast City Council
 time: "2020"
-layout: portfolio-single
 date: 2020-06-12T15:20:45.070Z
+testimonials:
+  - name: John Doe
+    title: Director, Belfast City Council
+    content: Up the ra.
+  - name: Sammy Joe
+    title: Scumbag
+    content: Everything's fucked. 🤗
+slides:
+  - title: An example caption
+    image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,h_auto,q_auto,w_1000/v1591540680/uae-skyline_2x_mz6b7g.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,h_auto,q_auto,w_1000/v1591450355/adobestock-294978260_ckrkyb.jpg
 ---
 ## The Challenge
 
