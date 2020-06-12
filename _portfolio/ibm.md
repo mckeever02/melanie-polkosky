@@ -17,8 +17,8 @@ testimonials:
     content: Everything's fucked. 🤗
 slides:
   - title: An example caption
-    image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,h_auto,q_auto,w_1000/v1591540680/uae-skyline_2x_mz6b7g.jpg
-  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,h_auto,q_auto,w_1000/v1591450355/adobestock-294978260_ckrkyb.jpg
+    image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591540686/vui-characters_2x_exearz.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591540674/speech-journal_2x_pn8r4l.jpg
 ---
 ## The Challenge
 
