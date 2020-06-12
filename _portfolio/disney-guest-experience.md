@@ -1,24 +1,24 @@
 ---
+animation: mickey-mouse
 layout: portfolio-single
-title: Early voice UI prototypes to improve Guest experience.
-role: UI Design
-category: UI Design
 thumbnail_title: Disney
+title: Early voice UI prototypes to improve Guest experience.
+category: UI Design
+role: UI Design
 company: IBM
 client: Disney
-time: 2005
 thumbnail: disney-thumbnail
-animation: mickey-mouse
+time: 2005
+date: 2020-06-12T16:27:01.690Z
 audio:
-    - link: visionclip-1.mp3
-      title: Vision Clip Dine Full Automation
-    - link: visionclip-FAQ.mp3
-      title: Vision Clip FAQ Page
-    - link: visionclip-intender-dine.mp3
-      title: Vision Clip Intender Dine
-    - link: visionclip-reservation-confirmation.mp3
-      title: Vision Clip Reservation Confirmation
-
+  - link: visionclip-1.mp3
+    title: Vision Clip Dine Full Automation
+  - link: visionclip-FAQ.mp3
+    title: Vision Clip FAQ Page
+  - link: visionclip-intender-dine.mp3
+    title: Vision Clip Intender Dine
+  - link: visionclip-reservation-confirmation.mp3
+    title: Vision Clip Reservation Confirmation
 ---
 
 ## The Challenge
