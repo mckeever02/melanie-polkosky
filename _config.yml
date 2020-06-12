@@ -11,6 +11,9 @@ collections:
   writing:
     output: false
     collections_dir: writing
+  testimonials:
+    output: false
+    collections_dir: testimonials
 
 permalink: pretty
 

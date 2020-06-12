@@ -15,7 +15,7 @@ media_library:
                     quality: auto
                     width: 1100
                     height: 640
-                    crop: scale
+                    crop: fill
                     dpr: auto
 
 collections:
@@ -73,7 +73,7 @@ collections:
                     quality: auto
                     width: 1100
                     height: 640
-                    crop: scale
+                    crop: fill
                     dpr: auto
   - name: 'about_page'
     label: 'About Page'
@@ -130,12 +130,14 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string', required: true  }
+      - { label: 'Title', name: 'title', widget: 'string', required: true, hint: "E.g. Product designer"  }
+      - { label: 'job', name: 'job', widget: 'string', required: true, hint: "The Company or job sector. E.g. Square"  }
       - { label: 'Content', name: 'body', widget: 'markdown', required: true }
+      - { label: 'Type', name: 'type', widget: 'select', required: true, options: ["Coaching", "Mentoring"] }
       - label: "Featured Image"
         name: "image"
         widget: "image"
-        hint: 'Upload an image at least 1100px wide and 640px tall'
+        hint: 'Image will be cropped to 480px by 600px'
         media_library:
           name: cloudinary
           config:
