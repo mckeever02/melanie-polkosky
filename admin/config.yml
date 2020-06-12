@@ -75,11 +75,12 @@ collections:
             name: "link"
             widget: "file"
             media_library: "/audio"
+  - name: 'writing'
+    create: true
     label: 'Writing Page'
     editor:
         preview: false
     folder: '_writing/'
-    create: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'writing' }
       - { label: 'Title', name: 'title', widget: 'string', required: true  }
