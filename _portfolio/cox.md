@@ -1,18 +1,19 @@
 ---
-layout: portfolio-single
-title: Copywriting for easy self-install instructions.
-role: Project Lead
-category: UI Design
-thumbnail_title: Cox
-company: Motivate Design
-client: Cox
-time: 2018
-thumbnail: cox
-animation: copywriting
 slides:
-  - image: cox-workshop-1.jpg
-  - image: cox-workshop-3.jpg
-  - image: cox-workshop-4.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591977998/cox-workshop-1_m17djl.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591977998/cox-workshop-3_k6s6wj.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591977998/cox-workshop-4_g866eb.jpg
+animation: copywriting
+layout: portfolio-single
+thumbnail_title: Cox
+title: Copywriting for easy self-install instructions.
+category: UI Design
+role: Project Lead
+client: Cox
+thumbnail: cox
+company: Motivate Design
+time: 2018
+date: 2020-06-12T16:05:38.049Z
 ---
 
 ## The Challenge
