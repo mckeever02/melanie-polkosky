@@ -35,10 +35,39 @@ collections:
       - { label: 'Role', name: 'role', widget: 'string', required: false }
       - { label: 'Company', name: 'company', widget: 'string', required: false }
       - { label: 'Client', name: 'client', widget: 'string', required: false }
-      - { label: 'Time', name: 'time', widget: 'string', required: false }
+      - { label: 'Time', name: 'time', widget: 'string', required: false, hint: "The displayed date for the case study e.g. 2020-2021" }
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'portfolio-single' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Sorting Date', name: 'date', widget: 'datetime', hint: "The date used for sorting. Leave set to Now to display as most recent" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Testimonial Section"
+        name: "testimonials"
+        widget: "list"
+        hint: "Leave blank in no testimonials to display"
+        fields:
+          - { label: 'Full Name', name: 'name', widget: 'string', required: false, hint: "Name of the person if avail" }
+          - { label: 'Job Title', name: 'title', widget: 'string', required: false, hint: "E.g. Director, Belfast City Council" }
+          - { label: 'Quote', name: 'content', widget: 'string', required: true, hint: "Don't add in quotes. They get added automatically." }
+      - label: "Slideshow Section"
+        name: "slides"
+        widget: "list"
+        hint: "Add images with optional captions to be displayed in a slideshow"
+        fields:
+          - { label: 'Caption', name: 'title', widget: 'string', required: false, hint: "Optional" }
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            hint: 'Upload an image at least 1000px wide'
+            media_library:
+              name: cloudinary
+              config:
+                multiple: false
+                default_transformations:
+                  - - fetch_format: auto
+                      quality: auto
+                      width: 1000
+                      height: auto
+                      crop: fit
+                      dpr: auto
       # - label: "Details"
       #   name: "details"
       #   widget: "object"
