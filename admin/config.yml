@@ -12,6 +12,7 @@ media_library:
     api_key: 146799337454777
     default_transformations:
       - - fetch_format: auto
+          format: auto
           quality: auto
           crop: fill
           dpr: auto
@@ -60,17 +61,15 @@ collections:
               config:
                 multiple: false
                 default_transformations:
-                  - - fetch_format: auto
-                      quality: auto
-                      width: 1000
+                  - - width: 1000
                       crop: fit
-                      dpr: auto
       - label: "Audio"
         name: "audio"
         widget: "list"
         hint: "Upload clips of audio to showcase"
         fields:
           - { label: 'Title', name: 'title', widget: 'string', required: true }
+          - { label: 'Description', name: 'description', widget: 'text', required: false }
           - label: "Audio Link"
             name: "link"
             widget: "file"
@@ -98,12 +97,8 @@ collections:
           config:
             multiple: false
             default_transformations:
-              - - fetch_format: auto
-                  quality: auto
-                  width: 1100
+              - - width: 1100
                   height: 640
-                  crop: fill
-                  dpr: auto
   - name: 'about_page'
     label: 'About Page'
     editor:
@@ -172,12 +167,8 @@ collections:
           config:
             multiple: false
             default_transformations:
-              - - fetch_format: auto
-                  quality: auto
-                  width: 480
+              - - width: 480
                   height: 600
-                  crop: fill
-                  dpr: auto
   - name: 'pages'
     label: 'Pages'
     editor:

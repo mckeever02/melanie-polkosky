@@ -48,8 +48,11 @@
       <div class="mt-12">
         {% for item in page.audio %}
         <div class="relative mb-12">
-          <h3 class="font-body mb-4 text-xl font-medium">{{item.title}}</h3>
-          <div class="relative">
+          <h3 class="font-body mb-2 text-xl font-medium">{{item.title}}</h3>
+          {% if item.description %}
+          <p>{{item.description}}</p>
+          {% endif %}
+          <div class="relative mt-4">
             <div class="border border-slateGray w-full h-full absolute z-10 audio-accent"></div>
             <div class="audio-element">
               <audio crossorigin>
