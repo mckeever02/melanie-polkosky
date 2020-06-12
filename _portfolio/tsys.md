@@ -31,9 +31,11 @@ TSYS had recently undergone an acquisition and was having difficulty integrating
 
 I was one of two researchers/designers tapped to evaluate the existing website for an organization that, although its systems are present in nearly every global credit card transaction, did not have significant name recognition. Interviews with three groups of 31 key customers revealed a siloed understanding of TSYS products and organization of the existing website, which was further complicated by the prospect of integrating new content.
 
-![TSYS Website IA Diagram](https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_800/v1591980386/tsys-ia-option2_t49o90.jpg "TSYS Website IA Diagram") {: .longform-img}
+![TSYS Website IA Diagram](https://res.cloudinary.com/mckvr/image/upload/c_fill,dpr_auto,f_auto,q_auto,w_800/v1591980386/tsys-ia-option2_t49o90.jpg)
+{: .longform-img}
 
-![TSYS website IA](/images/tsys-ia-option2.jpg) {: .longform-img}
+![TSYS website IA](/images/tsys-ia-option2.jpg)
+{: .longform-img}
 
 We radically transformed and simplified the information architecture of the site based on customer pain paints and understanding of TSYS offerings. We also created sample wireframes to show the flow of important content. Finally, over numerous meetings, we engaged with internal stakeholders to create alignment and the will to change across business units. Our work formed the basis of a comprehensive website redesign and elements of our recommendations are still visible in the website today.
 
