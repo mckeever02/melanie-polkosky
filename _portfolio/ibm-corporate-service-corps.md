@@ -1,17 +1,18 @@
 ---
+slides:
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591979540/uae-1_ghh1wp.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591979540/uae-2_ukmvhg.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,dpr_auto,f_auto,q_auto,w_1000/v1591979540/uae-3_gszyvb.jpg
+animation: uae
 layout: portfolio-single
-title: CSR strategy and prioritized city initiatives.
 thumbnail_title: IBM Corporate Service Corps
-role: Strategy Consulting
+thumbnail: corporate-service-corps
+title: CSR strategy and prioritized city initiatives.
 category: Strategy Consulting
+role: Strategy Consulting
 company: IBM
 time: 2012
-thumbnail: corporate-service-corps
-animation: uae
-slides:
-  - image: uae-1.jpg
-  - image: uae-2.jpg
-  - image: uae-3.jpg
+date: 2020-06-12T16:31:19.949Z
 ---
 
 
