@@ -13,6 +13,7 @@ media_library:
     default_transformations:
       - - fetch_format: auto
           format: auto
+          width: 800
           quality: auto
           crop: fill
           dpr: auto
