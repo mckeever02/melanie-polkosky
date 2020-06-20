@@ -201,9 +201,24 @@ p a:hover {
   @apply mb-8;
 }
 
+.markdown-text li > p {
+  @apply mb-4 leading-normal;
+}
+
+.markdown-text ol {
+  @apply list-decimal list-inside;
+}
+
+.markdown-text ul {
+  @apply list-disc list-inside;
+}
+
 @screen md {
   .longform-text p, .longform-text ul, .longform-text ol {
     @apply leading-9 mb-12;
+  }
+  .markdown-text ul {
+    @apply list-outside;
   }
 }
 
@@ -217,15 +232,6 @@ p a:hover {
 
 .longform-img img {
   max-width: 100%!important;
-}
-
-.markdown-text ul li::before {
-  content: "\2022";
-  @apply text-aquamarine inline-block font-medium w-4;
-}
-
-.markdown-text ol {
-  @apply list-decimal list-inside;
 }
 
 .longform-title, .markdown-text h2 {
@@ -855,6 +861,34 @@ input:checked + svg {
     background: linear-gradient(90deg, rgba(25,65,72,0) 0%, rgba(25,65,72,0.8953956582633054) 60%, rgba(25,65,72,1) 100%);
   }
 }
+
+/* Tab content - closed */
+		.tab-content {
+			max-height: 0;
+			-webkit-transition: max-height .35s;
+			-o-transition: max-height .35s;
+			transition: max-height .35s;
+		}
+
+		/* :checked - resize to full height */
+		.tab input:checked ~ .tab-content {
+			max-height: 100vh;
+		}
+
+
+		/* Label formatting when open */
+		.tab input:checked + label{
+
+		}
+
+
+
+
+		/* Icon formatting - open */
+		.tab input[type=checkbox]:checked + label .icon {
+			transform: rotate(90deg)!important;
+		}
+
 
 @tailwind components;
 /* purgecss end ignore */
