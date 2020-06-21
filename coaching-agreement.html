@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coaching Agreement & Acknowledgement
+title: Coaching Agreement
 description: Just one final step.
 permalink: /coaching-agreement/
 accordion:
-  - title: "Coaching Responsibilities"
+  - title: "Coach Responsibilities"
     content: "Your coach, Melanie Polkosky, agrees to:"
     list:
-      - "Act with a high level of professionalism, integrity and honesty."
+      - Act with a high level of professionalism, integrity and honesty.
       - "Be an objective, non-judgmental thinking partner and 100% advice free when coaching."
       - "Focus entirely on assisting you to define and achieve your goals."
       - "Honor our conversations with total confidentiality."
@@ -54,8 +54,8 @@ accordion:
 
 {% include hero-minimal.html %}
 
-<div class="max-w-2xl mx-auto text-xl my-24">
-    <p class="mb-4 text-3xl font-display">Hi there,</p>
+<div class="max-w-2xl mx-auto md:text-xl my-24">
+    <p class="mb-4 text-2xl md:text-3xl font-display">Hi there,</p>
     <p class="leading-relaxed">In order to complete our agreement, I just need you to take a read through the coaching agreement below and then fill out the short form. If you've any questions about this, <a href="mailto:{{site.email}}">just shoot me an email</a>.</p>
     <p class="mt-4">&ndash; Melanie </p>
 </div>
@@ -65,14 +65,14 @@ accordion:
   {% for item in page.accordion %}
 		<div class="tab w-full overflow-hidden border border-silver mb-12">
 		  <input class="absolute opacity-0" id="tab-multi-{{i}}" type="checkbox" name="tabs">
-		  <label class="flex flex-row items-center relative w-full p-5 leading-normal cursor-pointer text-3xl font-display text-white" for="tab-multi-{{i}}">
+		  <label class="flex flex-row items-center relative w-full p-3 md:p-6 leading-normal cursor-pointer text-2xl md:text-3xl font-display text-white" for="tab-multi-{{i}}">
       <span class="mr-auto">{{item.title}}</span>
-      <svg class="w-8 h-8 icon transition-transform duration-150 transform rotate-0" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.398.367L.234.531a.27.27 0 000 .399l4.57 4.57-4.57 4.594a.27.27 0 000 .398l.164.164a.27.27 0 00.399 0l4.945-4.945a.27.27 0 000-.399L.797.367a.27.27 0 00-.399 0z" fill="currentColor"/></svg>
+      <svg class="w-6 h-6 md:w-8 md:h-8 icon transition-transform duration-150 transform rotate-0" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.398.367L.234.531a.27.27 0 000 .399l4.57 4.57-4.57 4.594a.27.27 0 000 .398l.164.164a.27.27 0 00.399 0l4.945-4.945a.27.27 0 000-.399L.797.367a.27.27 0 00-.399 0z" fill="currentColor"/></svg>
       </label>
 		  <div class="tab-content overflow-hidden">
-        <div class="p-6 pb-0 w-full longform-text markdown-text text-white text-xl border-t border-silver">
+        <div class="px-3 py-6 md:p-6 pb-0 w-full longform-text markdown-text text-white md:text-xl border-t border-silver">
           <p class="mb-4">{{item.content}}</p>
-          <ul>
+          <ul class="list--tab-content">
             {% for item in item.list %}
             <li>{{item | markdownify}}</li>
             {% endfor %}
@@ -86,16 +86,14 @@ accordion:
 
 
 
-  <form name="Coaching Agreement" netlify class="text-xl max-w-3xl mx-auto bg-white px-12 pt-12 lg:px-16 lg:pt-16 pb-12" netlify-honeypot="bot-field" action="/thanks/">
-
-
-        <h2 class="font-display text-offBlack text-3xl md:text-4xl mb-2">Please fill out the form below.</h2>
-        <div class="h-1 bg-aquamarine w-16 mb-12"></div>
+  <form name="Coaching Agreement" netlify class="text-xl max-w-3xl mx-auto bg-white px-6 pt-6 md:px-12 lg:px-16 md:pt-12 lg:pt-16 pb-12" netlify-honeypot="bot-field" action="/thanks/">
+        <h2 class="font-display text-offBlack text-2xl sm:text-3xl md:text-4xl mb-2 leading-tight">Please fill out the form below.</h2>
+        <div class="h-1 bg-aquamarine w-12 md:w-16 mb-6 md:mb-12"></div>
 
         <div class="mb-12">
             <label class="flex justify-start items-start">
-                  <input type="checkbox" required class="rounded-none w-7 h-7 mr-2">
-                <div class="select-none text-lg text-gray-700 font-medium">I have read the Policy Statement above and understand my rights and responsibilities as a Client.</div>
+                  <input type="checkbox" required class="rounded-none w-16 h-16 sm:w-10 sm:h-10 lg:w-7 lg:h-7 mr-4 sm:mr-2">
+                <div class="select-none text-base md:text-lg text-gray-700 font-medium">I have read the Policy Statement above and understand my rights and responsibilities as a Client.</div>
               </label>
         </div>
 
@@ -111,15 +109,14 @@ accordion:
 
         {% include hr.html spacing="mt-6 mb-4 md:mt-8 md:mb-6 lg:mt-12 lg:mb-8" %}
 
-        <h2 class="font-display text-offBlack text-2xl md:text-3xl mb-2">Your emergency contact</h2>
-        <p class="text-gray-700 mb-8 md:mb-12">I'll use these details only for contacting the person incase of an emergency.</p>
+        <h2 class="font-display text-offBlack text-2xl md:text-3xl mb-2">Your alternate contact</h2>
+        <p class="text-gray-700 mb-8 md:mb-12">I’ll use these details only in an emergency where I’m unable to reach you at your main points of contact.</p>
 
-        {% include input.html label="Emergency Contact Name" type="text" id="emergency_contact_name" required="true" placeholder="Full name of an emergency contact" %}
+        {% include input.html label="Alternate Contact Name" type="text" id="alternate_contact_name" required="true" placeholder="Full name of an alternate contact" %}
 
+        {% include input.html label="Alternate Contact Relationship" type="text" id="alternate_contact_relationship" required="false" placeholder="The relationship you have with the contact" %}
 
-        {% include input.html label="Emergency Contact Relationship" type="text" id="emergency_contact_relationship" required="true" placeholder="The relationship you have with the contact" %}
-
-        {% include input.html label="Emergency Contact Phone Number" type="text" id="emergency_phone_number" required="true" %}
+        {% include input.html label="Alternate Contact Phone Number" type="text" id="alternate_phone_number" required="true" %}
 
         <p class="hidden">
             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>

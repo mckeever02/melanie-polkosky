@@ -202,7 +202,7 @@ p a:hover {
 }
 
 .markdown-text li > p {
-  @apply mb-4 leading-normal;
+  @apply leading-normal inline;
 }
 
 .markdown-text ol {
@@ -849,7 +849,14 @@ input:checked + svg {
   @apply border-white;
 }
 
+.list--tab-content li {
+  @apply mb-2;
+}
+
 @screen md {
+  .list--tab-content li {
+    @apply mb-4;
+  }
   .slider-overlay {
     width: 15%;
     @apply bg-darkGreen;
