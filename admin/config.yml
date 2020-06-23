@@ -148,7 +148,7 @@ collections:
         file: 'coaching-section-1.md'
         fields:
           - { label: 'Content', name: 'body', widget: 'markdown'}
-  - name: 'coaching_testimonails'
+  - name: 'coaching_testimonials'
     label: 'Coaching Testimonials'
     folder: '_testimonials/'
     create: true
@@ -182,17 +182,17 @@ collections:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'coaching-agreement' }
           - { label: 'Page Title', name: 'title', widget: 'string', default: 'Coaching Agreement' }
           - { label: 'Page Description', name: 'description', widget: 'string', default: 'Just one final step.' }
-          # - label: "Accordion Section"
-          #   name: "accordion"
-          #   widget: "list"
-          #   fields:
-          #     - { label: 'Title', name: 'title', widget: 'string', required: true }
-          #     - { label: 'Content', name: 'content', widget: 'string', required: true }
-          #     - label: "List"
-          #       name: "accordion_list"
-          #       widget: "list"
-          #       fields:
-          #         - { label: 'Content', name: 'accordion_list_content', widget: 'markdown', required: true }
+          - label: "Accordion Section"
+            name: "accordion"
+            widget: "list"
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: true }
+              - { label: 'Content', name: 'content', widget: 'string', required: true }
+              - label: "List"
+                name: "accordion_list"
+                widget: "list"
+                fields:
+                  - { label: 'Content', name: 'accordion_list_content', widget: 'markdown', required: true }
   - name: 'home'
     label: 'Home Page'
     editor:
@@ -229,20 +229,6 @@ collections:
             fields:
               - { label: 'Name', name: 'name', widget: 'string', required: true }
               - { label: 'Link', name: 'link', widget: 'string', required: true }
-  - name: 'about'
-    label: 'About Page'
-    editor:
-      preview: false
-    files:
-      - label: 'Content'
-        name: 'about_content'
-        file: 'about.html'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-          - { label: 'Page Description', name: 'description', widget: 'string' }
-          - { label: 'Animation', name: 'animation', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
   # - name: 'pages'
   #   label: 'Pages'
   #   editor:
