@@ -148,8 +148,8 @@ collections:
         file: 'coaching-section-1.md'
         fields:
           - { label: 'Content', name: 'body', widget: 'markdown'}
-  - name: 'testimonails'
-    name: 'Coaching Testimonials'
+  - name: 'coaching_testimonails'
+    label: 'Coaching Testimonials'
     folder: '_testimonials/'
     create: true
     editor:
