@@ -174,10 +174,14 @@ collections:
     label: 'Coaching Agreement Page'
     editor:
       preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'coaching-agreement' }
-      - { label: 'Page Title', name: 'title', widget: 'string', default: 'Coaching Agreement' }
-      - { label: 'Page Description', name: 'description', widget: 'string', default: 'Just one final step.' }
+    files:
+      - label: 'Content'
+        files: 'agreement_content'
+        file: 'coaching-agreement.html'
+        fields:
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'coaching-agreement' }
+          - { label: 'Page Title', name: 'title', widget: 'string', default: 'Coaching Agreement' }
+          - { label: 'Page Description', name: 'description', widget: 'string', default: 'Just one final step.' }
       # - label: "Content Section"
       #   name: "accordion"
       #   widget: "list"
