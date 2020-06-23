@@ -170,6 +170,24 @@ collections:
             default_transformations:
               - - width: 480
                   height: 600
+  - name: 'agreement_page'
+    label: 'Coaching Agreement Page'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'coaching-agreement' }
+      - { label: 'Page Title', name: 'title', widget: 'string', default: 'Coaching Agreement' }
+      - { label: 'Page Description', name: 'description', widget: 'string', default: 'Just one final step.' }
+      # - label: "Content Section"
+      #   name: "accordion"
+      #   widget: "list"
+      #   fields:
+      #     - { label: 'Title', name: 'title', widget: 'string', required: true }
+      #     - { label: 'Content', name: 'content', widget: 'string', required: true }
+      #     - label: "List"
+      #       widget: "list"
+      #       fields:
+      #         - { label: 'Content', name: 'content', widget: 'markdown', required: true }
   - name: 'pages'
     label: 'Pages'
     editor:
