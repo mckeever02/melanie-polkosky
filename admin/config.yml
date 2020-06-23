@@ -175,23 +175,73 @@ collections:
     editor:
       preview: false
     files:
-      - label: 'Content'
+      - label: 'Header'
         name: 'agreement_content'
         file: 'coaching-agreement.html'
         fields:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'coaching-agreement' }
           - { label: 'Page Title', name: 'title', widget: 'string', default: 'Coaching Agreement' }
           - { label: 'Page Description', name: 'description', widget: 'string', default: 'Just one final step.' }
-      # - label: "Content Section"
-      #   name: "accordion"
-      #   widget: "list"
-      #   fields:
-      #     - { label: 'Title', name: 'title', widget: 'string', required: true }
-      #     - { label: 'Content', name: 'content', widget: 'string', required: true }
-      #     - label: "List"
-      #       widget: "list"
-      #       fields:
-      #         - { label: 'Content', name: 'content', widget: 'markdown', required: true }
+      - label: "Accordion Section"
+        name: "accordion"
+        widget: "list"
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', required: true }
+          - { label: 'Content', name: 'content', widget: 'string', required: true }
+          - label: "List"
+            widget: "list"
+            fields:
+              - { label: 'Content', name: 'content', widget: 'markdown', required: true }
+  - label: 'Home Page'
+    name: 'home_page'
+    editor:
+      preview: false
+    files:
+      - label: 'Content'
+        name: 'home_content'
+        file: 'index.html'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'home' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
+          - { label: 'Page Title', name: 'subtitle', widget: 'string' }
+          - { label: 'Page Description', name: 'description', widget: 'string' }
+          - { label: 'Column 1', name: 'intro_column_1', widget: 'text', required: true }
+          - { label: 'Column 2', name: 'intro_column_2', widget: 'text', required: true }
+          - label: "Timeline Section"
+            name: "timeline"
+            widget: "list"
+            fields:
+              - { label: 'Date', name: 'timeline_item_date', widget: 'string', required: true }
+              - { label: 'Title', name: 'timeline_item_title', widget: 'string', required: true }
+              - { label: 'Quote', name: 'timeline_item_quote', widget: 'string', required: true }
+          - label: "Links Section"
+            name: "talks_interviews"
+            widget: "list"
+            fields:
+              - { label: 'Publication', name: 'title', widget: 'string', required: true, hint: "e.g. Silicon Republic" }
+              - { label: 'Title', name: 'description', widget: 'string', required: true, hint: "e.g. Career Profile in Silicon Republic" }
+              - { label: 'URL', name: 'link', widget: 'string', required: true }
+              - { label: 'Date', name: 'date', widget: 'string', required: true, hint: "e.g. Apr 2020" }
+          - label: "Social Section"
+            name: "social"
+            widget: "list"
+            fields:
+              - { label: 'Name', name: 'name', widget: 'string', required: true }
+              - { label: 'Link', name: 'link', widget: 'string', required: true }
+  - label: 'About Page'
+      name: 'about_page'
+      editor:
+        preview: false
+      files:
+        - label: 'Content'
+          name: 'about_content'
+          file: 'about.html'
+          fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+            - { label: 'Page Description', name: 'description', widget: 'string' }
+            - { label: 'Animation', name: 'animation', widget: 'string' }
+            - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
     editor:
