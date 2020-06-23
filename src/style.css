@@ -879,7 +879,7 @@ input:checked + svg {
 
 		/* :checked - resize to full height */
 		.tab input:checked ~ .tab-content {
-			max-height: 100vh;
+			max-height: 100%;
 		}
 
 
