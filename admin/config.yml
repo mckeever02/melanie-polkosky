@@ -170,13 +170,13 @@ collections:
             default_transformations:
               - - width: 480
                   height: 600
-  - name: 'agreement_page'
-    label: 'Coaching Agreement Page'
+  - label: 'Coaching Agreement Page'
+    name: 'agreement_page'
     editor:
       preview: false
     files:
       - label: 'Content'
-        files: 'agreement_content'
+        name: 'agreement_content'
         file: 'coaching-agreement.html'
         fields:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'coaching-agreement' }
