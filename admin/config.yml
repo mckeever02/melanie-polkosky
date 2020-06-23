@@ -182,16 +182,16 @@ collections:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'coaching-agreement' }
           - { label: 'Page Title', name: 'title', widget: 'string', default: 'Coaching Agreement' }
           - { label: 'Page Description', name: 'description', widget: 'string', default: 'Just one final step.' }
-      - label: "Accordion Section"
-        name: "accordion"
-        widget: "list"
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string', required: true }
-          - { label: 'Content', name: 'content', widget: 'string', required: true }
-          - label: "List"
+          - label: "Accordion Section"
+            name: "accordion"
             widget: "list"
             fields:
-              - { label: 'Content', name: 'content', widget: 'markdown', required: true }
+              - { label: 'Title', name: 'title', widget: 'string', required: true }
+              - { label: 'Content', name: 'content', widget: 'string', required: true }
+              - label: "List"
+                widget: "list"
+                fields:
+                  - { label: 'Content', name: 'content', widget: 'markdown', required: true }
   - label: 'Home Page'
     name: 'home_page'
     editor:
