@@ -9,19 +9,19 @@ callout_description: "Been there, wrote a book on being a woman in STEM"
 callout_link: "https://www.amazon.co.uk/Uncovering-Truffles-Scarcity-Value-Women/dp/1515304280/ref=sr_1_1?keywords=uncovering+truffles&qid=1585251895&sr=8-1"
 ---
 
-<div class="relative pb-16 -mt-16">
-    <div class="mx-auto relative mt-8 md:mt-16 mb-8">
+<div class="relative pb-8 md:pb-16 -mt-16">
+    <div class="mx-auto relative mt-8 md:mt-16 md:mb-8">
         <div class="absolute w-full h-full border-slateGray border img-accent z-0"></div>
         <img class="relative z-10 m-0" src="/images/melanie-polkosky.jpg" alt="Photo of Melanie Polkosky">
     </div>
-    <div class="block max-w-screen-lg mx-auto -mt-40 relative z-10">
+    <div class="block max-w-screen-lg mx-auto -mt-24 md:-mt-40 relative z-10">
         <h1 class="hero-subtitle">{{page.title}}</h1>
         <h2 class="hero-title">{{page.description}}</h2>
     </div>
 
 </div>
 
-<div class="mt-6 max-w-2xl mx-auto text-lg lg:text-xl longform-text">
+<div class="md:mt-6 max-w-2xl mx-auto text-lg lg:text-xl longform-text">
     {% capture section_1_content %}{% include_relative about-section-1.md %}{% endcapture %}
     {{ section_1_content | markdownify }}
 </div>

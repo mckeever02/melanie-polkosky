@@ -95,7 +95,7 @@
 }
 
 .hero-title {
-  @apply leading-tight mt-2 text-4xl;
+  @apply leading-tight mt-2 text-3xl;
 }
 
 @screen sm {
@@ -198,7 +198,7 @@ p a:hover {
 }
 
 .longform-text p, .longform-text ul, .longform-text ol {
-  @apply mb-8;
+  @apply mb-8 leading-7;
 }
 
 .markdown-text li > p {

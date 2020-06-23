@@ -24,7 +24,7 @@ redirect_from:
 
 {% include hero.html %}
 
-<div class="mt-6 md:mt-16 max-w-2xl mx-auto md:text-lg lg:text-xl longform-text markdown-text">
+<div class="mt-6 md:mt-16 max-w-2xl mx-auto text-lg lg:text-xl longform-text markdown-text">
     {% capture section_1_content %}{% include_relative coaching-section-1.md %}{% endcapture %}
     {{ section_1_content | markdownify }}
     <!-- <h2 class="longform-title">What is coaching?</h2>
@@ -89,7 +89,7 @@ redirect_from:
                     <p class="mb-0 leading-snug">Melanie has given me a strong set of tools for dealing with hard situations and decisions</p>
                 </blockquote> -->
             </div>
-            <div class="col-span-3 longform-text markdown-text md:text-lg lg:text-xl mt-8">
+            <div class="col-span-3 longform-text markdown-text text-lg lg:text-xl mt-8">
                 <h3 class="text-silver text-base uppercase font-medium tracking-widest font-body">{{item.type}}</h3>
                 <h4 class="longform-title text-3xl md:text-4xl leading-tight mb-6">{{item.title}}, {{item.job}}</h4>
                 {{item.content}}
