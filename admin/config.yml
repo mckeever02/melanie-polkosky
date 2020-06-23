@@ -179,7 +179,7 @@ collections:
         name: 'agreement_content'
         file: 'coaching-agreement.html'
         fields:
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'coaching-agreement' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'default' }
           - { label: 'Page Title', name: 'title', widget: 'string', default: 'Coaching Agreement' }
           - { label: 'Page Description', name: 'description', widget: 'string', default: 'Just one final step.' }
           - label: "Accordion Section"
