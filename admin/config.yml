@@ -100,7 +100,7 @@ collections:
             default_transformations:
               - - width: 1100
                   height: 640
-  - name: 'about_page'
+  - name: 'about'
     label: 'About Page'
     editor:
       preview: false
@@ -125,7 +125,7 @@ collections:
         file: 'about-section-2.md'
         fields:
           - { label: 'Content', name: 'body', widget: 'markdown'}
-  - name: 'coaching_page'
+  - name: 'coaching'
     label: 'Coaching Page'
     editor:
       preview: false
@@ -148,8 +148,8 @@ collections:
         file: 'coaching-section-1.md'
         fields:
           - { label: 'Content', name: 'body', widget: 'markdown'}
-  - label: 'Coaching Testimonials'
-    name: 'testimonails'
+  - name: 'testimonails'
+    name: 'Coaching Testimonials'
     folder: '_testimonials/'
     create: true
     editor:
@@ -170,8 +170,8 @@ collections:
             default_transformations:
               - - width: 480
                   height: 600
-  - label: 'Coaching Agreement Page'
-    name: 'agreement_page'
+  - name: 'agreement'
+    label: 'Coaching Agreement Page'
     editor:
       preview: false
     files:
@@ -193,8 +193,8 @@ collections:
           #       widget: "list"
           #       fields:
           #         - { label: 'Content', name: 'accordion_list_content', widget: 'markdown', required: true }
-  - label: 'Home Page'
-    name: 'home_page'
+  - name: 'home'
+    label: 'Home Page'
     editor:
       preview: false
     files:
@@ -229,8 +229,8 @@ collections:
             fields:
               - { label: 'Name', name: 'name', widget: 'string', required: true }
               - { label: 'Link', name: 'link', widget: 'string', required: true }
-  - label: 'About Page'
-    name: 'about_page'
+  - name: 'about'
+    label: 'About Page'
     editor:
       preview: false
     files:
