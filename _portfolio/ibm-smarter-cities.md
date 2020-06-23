@@ -1,8 +1,8 @@
 ---
 slides:
-  - image: belfast-1.jpg
-  - image: belfast-2.jpg
-  - image: belfast-3.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,w_1000/v1592920328/belfast-1_xat5uq.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,w_1000/v1592920328/belfast-2_noxha9.jpg
+  - image: https://res.cloudinary.com/mckvr/image/upload/c_fit,w_1000/v1592920328/belfast-3_tk9srr.jpg
 animation: h-and-w
 layout: portfolio-single
 thumbnail_title: IBM Smarter Cities Challenge
