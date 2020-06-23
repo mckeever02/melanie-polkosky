@@ -175,7 +175,7 @@ collections:
     editor:
       preview: false
     files:
-      - label: 'Header'
+      - label: 'Content'
         name: 'agreement_content'
         file: 'coaching-agreement.html'
         fields:
