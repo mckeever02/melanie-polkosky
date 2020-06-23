@@ -166,8 +166,8 @@ accordion:
         <div class="px-3 py-6 md:p-6 pb-0 w-full longform-text markdown-text text-white md:text-xl border-t-2 border-darkestGreen">
           <p class="mb-4">{{item.content}}</p>
           <ul class="list--tab-content">
-            {% for item in item.list %}
-            <li>{{item | markdownify}}</li>
+            {% for item in item.accordion_list %}
+            <li>{{item.accordion_list_content | markdownify}}</li>
             {% endfor %}
           </ul>
         </div>
