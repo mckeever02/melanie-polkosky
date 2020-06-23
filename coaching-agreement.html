@@ -65,8 +65,8 @@ accordion:
   {% assign i = 2 %}
 
   <div class="tab w-full overflow-hidden bg-darkerGreen border-darkestGreen border-2 mb-12">
-		  <input class="absolute opacity-0" id="tab-multi-1" type="checkbox" name="tabs">
-		  <label class="flex flex-row items-center relative w-full p-3 md:p-6 leading-normal cursor-pointer text-2xl md:text-3xl font-display text-white" for="tab-multi-1">
+		  <input class="absolute opacity-0" id="tab-multi-{{i | minus: 1}}" type="checkbox">
+		  <label class="flex flex-row items-center relative w-full p-3 md:p-6 leading-normal cursor-pointer text-2xl md:text-3xl font-display text-white" for="tab-multi-{{i | minus: 1}}">
       <span class="mr-auto">{{i | minus: 1}}. Please fill out this form</span>
       <svg class="w-6 h-6 md:w-8 md:h-8 icon transition-transform duration-150 transform rotate-0" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.398.367L.234.531a.27.27 0 000 .399l4.57 4.57-4.57 4.594a.27.27 0 000 .398l.164.164a.27.27 0 00.399 0l4.945-4.945a.27.27 0 000-.399L.797.367a.27.27 0 00-.399 0z" fill="currentColor"/></svg>
       </label>
