@@ -229,19 +229,19 @@ collections:
               - { label: 'Name', name: 'name', widget: 'string', required: true }
               - { label: 'Link', name: 'link', widget: 'string', required: true }
   - label: 'About Page'
-      name: 'about_page'
-      editor:
-        preview: false
-      files:
-        - label: 'Content'
-          name: 'about_content'
-          file: 'about.html'
-          fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-            - { label: 'Page Description', name: 'description', widget: 'string' }
-            - { label: 'Animation', name: 'animation', widget: 'string' }
-            - { label: 'Body', name: 'body', widget: 'markdown' }
+    name: 'about_page'
+    editor:
+      preview: false
+    files:
+      - label: 'Content'
+        name: 'about_content'
+        file: 'about.html'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+          - { label: 'Page Description', name: 'description', widget: 'string' }
+          - { label: 'Animation', name: 'animation', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
     editor:
