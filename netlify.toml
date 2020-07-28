@@ -6,3 +6,9 @@ package = "@netlify/plugin-sitemap"
 
 [[plugins]]
   package = "netlify-plugin-minify-html"
+
+[[plugins]]
+package = "netlify-plugin-subfont"
+
+    [plugins.inputs]
+    inlineCss = true
