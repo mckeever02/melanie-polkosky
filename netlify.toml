@@ -11,7 +11,7 @@ package = "@netlify/plugin-sitemap"
 package = "netlify-plugin-subfont"
 
     [plugins.inputs]
-    inlineCss = true
+    inlineCss = false
 
 [[plugins]]
 package = "netlify-plugin-inline-critical-css"
