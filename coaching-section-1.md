@@ -18,4 +18,4 @@ Other clients coach with me for a very different reason: because I’m a cogniti
 
 Regardless of what brings them to the process, what all coaching clients have in common is a small voice telling them things don’t have to be this way. There must be something better.
 
-And there it is. It just takes one step.
+And there is. It just takes one step.
