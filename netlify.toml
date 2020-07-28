@@ -12,6 +12,7 @@ package = "netlify-plugin-subfont"
 
     [plugins.inputs]
     inlineCss = true
+    fontDisplay = "swap"
 
-# [[plugins]]
-# package = "netlify-plugin-inline-critical-css"
+[[plugins]]
+package = "netlify-plugin-inline-critical-css"
