@@ -4,7 +4,7 @@ The International Coaching Federation (ICF) defines coaching as “partnering wi
 
 The coach’s role is to hold Clients as whole, capable, resourceful and creative. During a session, I ask provocative questions to support my Clients in unlocking their own internal wisdom about what they really want and how to overcome what’s blocking them. I assist Clients in hearing their own voices more clearly.
 
-As an Associate Certified Coach (ACC), I adhere to the ICF’s  [Code of Ethics](https://coachfederation.org/code-of-ethics) and [Core Competencies](https://coachfederation.org/core-competencies). ICF credentials are the international gold standard in coaching preparation. The ACC indicates I completed an accredited coaching program, completed over 100 Client coaching hours and passed an exam at the time it was awarded. I’m currently working toward the Professional Certified Coach (PCC) credential.
+As an Associate Certified Coach (ACC), I adhere to the ICF’s [Code of Ethics](https://coachfederation.org/code-of-ethics) and [Core Competencies](https://coachfederation.org/core-competencies). ICF credentials are the international gold standard in coaching preparation. The ACC indicates I completed an accredited coaching program, completed over 100 Client coaching hours and passed an exam at the time it was awarded. I’m currently working toward the Professional Certified Coach (PCC) credential.
 
 > Coaching is a thought-provoking and creative process that inspires client’s maximum potential.
 
