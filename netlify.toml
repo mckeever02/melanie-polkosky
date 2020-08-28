@@ -4,8 +4,8 @@ package = "@netlify/plugin-sitemap"
     [plugins.inputs]
     buildDir = "_site"
 
-[[plugins]]
-  package = "netlify-plugin-minify-html"
+# [[plugins]]
+#   package = "netlify-plugin-minify-html"
 
 [[plugins]]
 package = "netlify-plugin-subfont"
