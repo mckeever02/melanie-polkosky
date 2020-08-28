@@ -10,7 +10,7 @@ As an Associate Certified Coach (ACC), I adhere to the ICF’s [Code of Ethics](
 
 ## Why coaching?
 
-There are many reasons why people come to coaching. One of the most common is a crossroads: finding yourself at a turning point but not know which way to go. Others finally get tired of being tired, unhappy, or dissatisfied with their career or life in general. Some feel stuck, with no way out or through.
+There are many reasons why people come to coaching. One of the most common is a crossroads: finding yourself at a turning point but not knowing which way to go. Others finally get tired of being tired, unhappy, or dissatisfied with their career or life in general. Some feel stuck, with no way out or through.
 
 Many clients who choose to coach with me do so because I’ve had a similar career to one they imagine for themselves, in a STEM, User Experience or creative field. I deeply understand the rewards and challenges of being the lone woman in male-dominated professions or a fish out of water in other ways. When appropriate, I offer combination mentoring-coaching, to support clients’ continued professional skill development while helping them tap their own inner wisdom.
 
