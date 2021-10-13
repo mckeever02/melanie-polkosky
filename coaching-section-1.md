@@ -16,6 +16,6 @@ Many clients who choose to coach with me do so because I’ve had a similar care
 
 Other clients coach with me for a very different reason: because I’m a cognitive psychologist and former clinical speech-language pathologist, I have broad knowledge of various disabilities. I’ve coached a variety of caregivers of family members with special needs, supporting them through the most challenging role of their lives.
 
-Regardless of what brings them to the process, what all coaching clients have in common is a small voice telling them things don’t have to be this way. There must be something better.
+Regardless of what brings you to the powerful process of coaching, what all coaching clients have in common is a small voice telling them things don’t have to be this way. There must be something better.
 
 And there is. It just takes one step.
